@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*-review.json
+results.json
+run.json
+run-status.json
+records.json
+summary.json

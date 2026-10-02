@@ -1,0 +1,53 @@
+[
+  {
+    "advertiserId": "AR10888897372843147265",
+    "creativeId": "CR15371418889862774785",
+    "advertiserName": "Notion Labs Japan\u5408\u540c\u4f1a\u793e",
+    "format": "TEXT",
+    "firstShown": "2026-09-18T11:51:24.262Z",
+    "lastShown": "2026-09-28T10:35:06.337Z",
+    "adText": null,
+    "imageUrl": "https://tpc.googlesyndication.com/archive/simgad/4478496335274589880",
+    "creativeUrl": "https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP",
+    "observedAt": "2026-10-02T12:44:11.043Z",
+    "eventType": "initial",
+    "changedFields": [],
+    "targetType": "advertiser",
+    "targetValue": "AR10888897372843147265",
+    "searchRegion": "JP"
+  },
+  {
+    "advertiserId": "AR10888897372843147265",
+    "creativeId": "CR16445939692081250305",
+    "advertiserName": "Notion Labs Japan\u5408\u540c\u4f1a\u793e",
+    "format": "TEXT",
+    "firstShown": "2024-09-24T04:53:16.510Z",
+    "lastShown": "2026-09-28T10:35:00.423Z",
+    "adText": null,
+    "imageUrl": "https://tpc.googlesyndication.com/archive/simgad/15873748897943347263",
+    "creativeUrl": "https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR16445939692081250305?region=JP",
+    "observedAt": "2026-10-02T12:44:11.043Z",
+    "eventType": "initial",
+    "changedFields": [],
+    "targetType": "advertiser",
+    "targetValue": "AR10888897372843147265",
+    "searchRegion": "JP"
+  },
+  {
+    "advertiserId": "AR10888897372843147265",
+    "creativeId": "CR15297116617066938369",
+    "advertiserName": "Notion Labs Japan\u5408\u540c\u4f1a\u793e",
+    "format": "TEXT",
+    "firstShown": "2024-09-26T09:00:43.666Z",
+    "lastShown": "2026-09-28T10:34:59.225Z",
+    "adText": null,
+    "imageUrl": "https://tpc.googlesyndication.com/archive/simgad/11177042160775824434",
+    "creativeUrl": "https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15297116617066938369?region=JP",
+    "observedAt": "2026-10-02T12:44:11.043Z",
+    "eventType": "initial",
+    "changedFields": [],
+    "targetType": "advertiser",
+    "targetValue": "AR10888897372843147265",
+    "searchRegion": "JP"
+  }
+]

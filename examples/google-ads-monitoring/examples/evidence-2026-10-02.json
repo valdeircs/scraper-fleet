@@ -1,0 +1,79 @@
+{
+  "description": "Actual owner-run demonstration; not customer adoption or a week-over-week result. Output excerpt omits fields but preserves source values.",
+  "verifiedOn": "2026-10-02",
+  "actor": "agency-shift/google-ads-competitor-tracker",
+  "build": "0.2.2",
+  "inputFile": "monitor-input.json",
+  "source": "https://adstransparency.google.com/advertiser/AR10888897372843147265?region=JP",
+  "runs": [
+    {
+      "phase": "baseline",
+      "startedAt": "2026-10-02T12:44:10.174Z",
+      "finishedAt": "2026-10-02T12:44:11.505Z",
+      "status": "succeeded",
+      "scannedTargets": 1,
+      "completeTargets": 1,
+      "failedTargets": 0,
+      "cappedTargets": 0,
+      "recordsWritten": 13,
+      "eventCounts": {
+        "initial": 13
+      },
+      "sourceQuality": {
+        "totalAds": 13,
+        "adsWithText": 0,
+        "adsWithImage": 12,
+        "adsWithPreview": 13,
+        "adsWithoutText": 13,
+        "adsWithoutPreview": 0,
+        "detailSucceeded": 0,
+        "detailFailed": 1,
+        "detailSkipped": 0,
+        "detailAdsEnriched": 0,
+        "detailRequests": 1
+      },
+      "adsObserved": 13
+    },
+    {
+      "phase": "immediate-repeat-via-mcp",
+      "startedAt": "2026-10-02T12:44:52.210Z",
+      "finishedAt": "2026-10-02T12:44:53.538Z",
+      "status": "succeeded",
+      "scannedTargets": 1,
+      "completeTargets": 1,
+      "failedTargets": 0,
+      "cappedTargets": 0,
+      "recordsWritten": 0,
+      "eventCounts": {},
+      "sourceQuality": {
+        "totalAds": 13,
+        "adsWithText": 0,
+        "adsWithImage": 12,
+        "adsWithPreview": 13,
+        "adsWithoutText": 13,
+        "adsWithoutPreview": 0,
+        "detailSucceeded": 0,
+        "detailFailed": 1,
+        "detailSkipped": 0,
+        "detailAdsEnriched": 0,
+        "detailRequests": 1
+      },
+      "adsObserved": 13
+    }
+  ],
+  "costEstimate": {
+    "currency": "USD",
+    "basis": "Calculated base customer price before plan discounts; not owner account actual charges. Default 256 MB memory, one startup event per run.",
+    "pricePerRecord": 0.00078,
+    "startupEvent": 5e-05,
+    "baseline13Records": 0.01019,
+    "repeatZeroRecords": 5e-05,
+    "maxChargePerRun": 0.05
+  },
+  "limits": [
+    "A complete source response is not proof of all Google ads or complete creative text.",
+    "All 13 observed adText fields were null in both runs; one optional preview request failed per run.",
+    "The immediate repeat demonstrated unchanged comparison behavior, not a week of new creative events.",
+    "Claude Code, Claude and ChatGPT client sign-in/execution were not tested end to end."
+  ]
+}

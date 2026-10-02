@@ -1,8 +1,23 @@
-# scraper-fleet
+# Mako APIs on Apify
 
-**18 production data actors on the [Apify Store](https://apify.com/agency-shift)** — lead signals, market intelligence, app-store data and demand research. Built and maintained by me, running under the `agency-shift` account, feeding my own outbound engine daily.
+Practical web data tools for GTM research, competitor monitoring and automation. Built by Valdeir Lima and published as [agency-shift on Apify](https://apify.com/agency-shift).
 
-The thesis: **own the data pipe instead of renting seats.** Data vendors charge per credit forever; a scraper you own costs cents per run and nobody can deprecate your column.
+## Start with a working example
+
+**Track competitor Google ad creatives, then return for new and changed observations.**
+
+- [Run the prepared Notion Japan example](https://apify.com/agency-shift/google-ads-competitor-tracker/examples/track-notion-japan-google-ad-creatives) in your own Apify account.
+- [Follow the workflow and download the Python starter](examples/google-ads-monitoring/README.md).
+- [Connect Claude Code, Claude or ChatGPT through Apify MCP](examples/google-ads-monitoring/docs/connect-ai-assistants.md).
+- [Read the full Mako guide](https://makorev.com/blog/google-ads-competitor-tracking).
+
+On 2 October 2026, our bounded example collected 13 initial observations. An immediate repeat through MCP checked the same 13 creatives and emitted no new or changed records. Twelve records had image URLs; none had readable ad copy. One optional preview request failed. [See the dated evidence and limitations](examples/google-ads-monitoring/examples/evidence-2026-10-02.json).
+
+Runs have published usage charges. Set a spending cap, inspect the coverage summary, and check source links. These are public ad observations, not spend, conversion or profitability data.
+
+## More research tools
+
+The examples above are the best starting point. The catalog below links to each Actor's current inputs, pricing and limitations.
 
 ## 🎯 GTM & lead signals
 
@@ -10,7 +25,7 @@ The thesis: **own the data pipe instead of renting seats.** Data vendors charge 
 |---|---|
 | [Find Newly Funded Companies + Decision Makers](https://apify.com/agency-shift/funding-signal-scraper) | Newly-funded US private companies from SEC Form D: company, amount raised, decision makers |
 | [Track New Product Hunt Launches + Makers](https://apify.com/agency-shift/ph-launch-tracker) | Fresh PH launches as a GTM lead feed: products, makers, topics, upvotes |
-| [ATS Jobs Scraper](https://apify.com/agency-shift/ats-jobs-scraper) | Job postings from Greenhouse, Lever, Ashby, Recruitee — hiring = buying signal |
+| [ATS Jobs Scraper](https://apify.com/agency-shift/ats-jobs-scraper) | Job postings from Greenhouse, Lever, Ashby, Recruitee — hiring research |
 | [Enrich Domains: Email Provider, DMARC & Tech Stack](https://apify.com/agency-shift/domain-intel-scraper) | Email provider (MX), SPF/DMARC posture, tech stack per company domain |
 | [Company Registry Scraper (GLEIF / LEI)](https://apify.com/agency-shift/company-registry-lei-scraper) | EU & global legal entities: names, addresses, registry data |
 | [SEC EDGAR Filings Scraper](https://apify.com/agency-shift/sec-edgar-filings-scraper) | 10-K, 8-K, Form 4 filings — insider trades and financial events |
@@ -40,12 +55,12 @@ The thesis: **own the data pipe instead of renting seats.** Data vendors charge 
 
 | Actor | What it returns |
 |---|---|
-| [Web Content Crawler](https://apify.com/agency-shift/web-content-crawler) | Clean text extraction from any URL |
+| [Web Content Crawler](https://apify.com/agency-shift/web-content-crawler) | Structured text and links from supported public web pages |
 
-## How I use them
+## Costs, support and feedback
 
-Each actor is one input node of my outbound engine: **source → enrich → qualify → message**, orchestrated with n8n, stored in Supabase, personalized with Claude. A recent pay-per-event run sourced ~100 qualified B2B leads for about $0.27.
+Use your own Apify account and API token. Never put a token in a public repository, issue or shared connection URL. Each Actor documents its own pricing, dependencies and coverage; source websites and available fields can change.
 
----
+For a collection problem, use the relevant Actor's Issues tab. For the starter examples here, [open a reproducible issue](https://github.com/valdeircs/scraper-fleet/issues/new/choose). Tell us what you expected, what happened, and which decision the output helped you make. Remove credentials and personal data before sharing examples.
 
-Built by [Valdeir Lima](https://www.linkedin.com/in/valdeir-lima/) — GTM & Automation Engineer, Ireland. [agencyshift.dev](https://agencyshift.dev) · [Book 15 min](https://cal.com/valdeir-lima-yfs2lk/15min)
+Built by **Valdeir Lima · Mako**, GTM and Automation Engineer in Ireland. [Mako website](https://makorev.com) · [Apify tools](https://apify.com/agency-shift) · [Discuss a workflow](https://cal.com/mako-gtm/15min)

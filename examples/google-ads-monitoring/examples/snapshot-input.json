@@ -1,0 +1,12 @@
+{
+  "advertiserIds": [
+    "AR10888897372843147265"
+  ],
+  "region": "JP",
+  "mode": "snapshot",
+  "format": "ALL",
+  "maxResults": 20,
+  "maxAdsPerDomain": 20,
+  "includeCreativeDetails": true,
+  "maxCreativeDetails": 20
+}

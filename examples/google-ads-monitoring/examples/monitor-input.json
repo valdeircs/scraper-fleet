@@ -1,0 +1,14 @@
+{
+  "advertiserIds": [
+    "AR10888897372843147265"
+  ],
+  "region": "JP",
+  "mode": "changes",
+  "monitorName": "mako-notion-japan-example-20261002",
+  "format": "ALL",
+  "maxResults": 20,
+  "maxAdsPerDomain": 20,
+  "emitInitialSnapshot": true,
+  "includeCreativeDetails": true,
+  "maxCreativeDetails": 20
+}
