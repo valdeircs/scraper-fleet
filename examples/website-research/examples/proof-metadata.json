@@ -1,0 +1,33 @@
+{
+  "observedAt": "2026-10-02T13:28:27.408Z",
+  "actor": "agency-shift/web-content-crawler",
+  "build": "0.2.2",
+  "requestCount": 2,
+  "followLinks": false,
+  "pagesReturned": 2,
+  "chunksReturned": 33,
+  "errors": 0,
+  "markdownTruncatedPages": 0,
+  "configuredMaxChargeUsd": 0.05,
+  "note": "Real extraction of Mako-owned public pages; no browser rendering or AI inference. This sample does not prove all-site coverage or model answers.",
+  "pages": [
+    {
+      "url": "https://makorev.com/",
+      "loadedUrl": "https://makorev.com/",
+      "title": "Mako \u2014 GTM systems for B2B SaaS",
+      "httpStatusCode": 200,
+      "markdownLength": 7393,
+      "chunkCount": 21,
+      "oversizedChunkCount": 0
+    },
+    {
+      "url": "https://makorev.com/blog/google-ads-competitor-tracking",
+      "loadedUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+      "title": "How to track competitor Google ads with Apify and Claude | Mako",
+      "httpStatusCode": 200,
+      "markdownLength": 12648,
+      "chunkCount": 12,
+      "oversizedChunkCount": 0
+    }
+  ]
+}

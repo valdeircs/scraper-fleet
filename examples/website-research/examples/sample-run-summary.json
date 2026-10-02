@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "outcome": "succeeded",
+  "startedAt": "2026-10-02T13:28:25.850Z",
+  "finishedAt": "2026-10-02T13:28:27.408Z",
+  "followLinks": false,
+  "maxPages": 2,
+  "requestedInputCount": 2,
+  "requestedUniqueInputCount": 2,
+  "requestedUniqueUrlCount": 2,
+  "requestedUniqueUrls": [
+    "https://makorev.com/",
+    "https://makorev.com/blog/google-ads-competitor-tracking"
+  ],
+  "successfulRequestCount": 2,
+  "failedRequestCount": 0,
+  "returnedPageCount": 2,
+  "truncatedPageCount": 0,
+  "failedRequests": [],
+  "unprocessedInputCount": 0,
+  "pageLimitReached": true,
+  "skippedDueToLimitCount": 0,
+  "pendingRequestCount": 0,
+  "wholeSiteCompleteness": "not_assessed",
+  "coverageNote": "Link following was disabled. Coverage applies to the supplied requests, not the rest of each website.",
+  "limitNote": "maxPages is Crawlee's request budget; concurrency may cause a small overshoot. Reaching the number alone does not prove omitted pages. Returned pages count saved dataset rows. Diagnostic URLs omit credentials, query strings and fragments.",
+  "fatalError": null,
+  "summaryWarnings": [],
+  "aiExport": {
+    "format": "markdown-and-chunks",
+    "returnedChunkCount": 33,
+    "oversizedChunkCount": 0,
+    "markdownTruncatedPageCount": 0,
+    "emptyMarkdownPageCount": 0
+  }
+}

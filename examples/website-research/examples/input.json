@@ -1,0 +1,13 @@
+{
+  "startUrls": [
+    "https://makorev.com/",
+    "https://makorev.com/blog/google-ads-competitor-tracking"
+  ],
+  "maxPages": 2,
+  "followLinks": false,
+  "useProxy": false,
+  "exportFormat": "markdown-and-chunks",
+  "maxTextLength": 30000,
+  "maxMarkdownLength": 50000,
+  "chunkMaxCharacters": 2000
+}

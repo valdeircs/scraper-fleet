@@ -1,23 +1,27 @@
 # Mako APIs on Apify
 
-Practical web data tools for GTM research, competitor monitoring and automation. Built by Valdeir Lima and published as [agency-shift on Apify](https://apify.com/agency-shift).
+Practical web data tools for GTM research and automation. Built by Valdeir Lima and published as [agency-shift on Apify](https://apify.com/agency-shift).
 
-## Start with a working example
+## Start with website research
 
-**Track competitor Google ad creatives, then return for new and changed observations.**
+**Turn public website pages into clean Markdown and source-linked material for an AI or account-research workflow.**
 
-- [Run the prepared Notion Japan example](https://apify.com/agency-shift/google-ads-competitor-tracker/examples/track-notion-japan-google-ad-creatives) in your own Apify account.
-- [Follow the workflow and download the Python starter](examples/google-ads-monitoring/README.md).
-- [Connect Claude Code, Claude or ChatGPT through Apify MCP](examples/google-ads-monitoring/docs/connect-ai-assistants.md).
-- [Read the full Mako guide](https://makorev.com/blog/google-ads-competitor-tracking).
+- [Inspect real output without signing up](https://makorev.com/apis/website-research): switch between Markdown, JSON and source chunks.
+- [Download the n8n workflow and setup guide](examples/website-research/README.md).
+- [Use the optional AI skill recipe](skills/mako-website-research/SKILL.md) with an existing Apify MCP connection.
+- [Open the Web Content Crawler](https://apify.com/agency-shift/web-content-crawler) in your own Apify account.
 
-On 2 October 2026, our bounded example collected 13 initial observations. An immediate repeat through MCP checked the same 13 creatives and emitted no new or changed records. Twelve records had image URLs; none had readable ad copy. One optional preview request failed. [See the dated evidence and limitations](examples/google-ads-monitoring/examples/evidence-2026-10-02.json).
+The saved sample from **2 October 2026** contains two Mako-owned public pages and 33 source chunks, with no failed requests or truncated Markdown. It is a dated, bounded test—not a promise of complete website coverage. The crawler reads static HTML; it does not render JavaScript, create embeddings or generate AI answers. [Inspect the input, output and coverage report](examples/website-research/examples/proof-metadata.json).
 
-Runs have published usage charges. Set a spending cap, inspect the coverage summary, and check source links. These are public ad observations, not spend, conversion or profitability data.
+The n8n starter runs manually, uses built-in nodes, retrieves both the dataset and crawl report, and checks for missing or truncated content before preparing source packets. It contains no credentials. Your own runs have Apify charges; the sample downloads are free.
+
+## Google Ads monitoring example — availability under review
+
+The [Google Ads monitoring starter](examples/google-ads-monitoring/README.md) includes Python and MCP instructions plus a real earlier 13-record baseline and zero-change repeat. A later live Python run on build 0.2.3 failed with `REDIRECT_REJECTED`; a subsequent bounded test on 0.2.2 succeeded. The cause is unresolved, so these results do not establish consistent availability or a build regression. Always inspect `SUMMARY` before using the output. [Read the dated test notice](https://makorev.com/blog/google-ads-competitor-tracking).
 
 ## More research tools
 
-The examples above are the best starting point. The catalog below links to each Actor's current inputs, pricing and limitations.
+Start with the website-research example above. The catalog below links to each Actor's current inputs, pricing and limitations.
 
 ## 🎯 GTM & lead signals
 

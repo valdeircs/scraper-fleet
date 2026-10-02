@@ -1,5 +1,7 @@
 # Review competitors’ Google ad creatives each week
 
+> **Test update — 2 October 2026:** A later end-to-end run of the published Python starter against build 0.2.3 returned zero records and failed with `REDIRECT_REJECTED`. The client saved the failure summary and exited with code 2. A subsequent bounded check on pinned build 0.2.2 succeeded with one ad. The cause remains unresolved: this is intermittent availability, not a proven build regression. Check `SUMMARY` and test your target before depending on scheduled output.
+
 Use Mako’s [Google Ads Competitor Tracker on Apify](https://apify.com/agency-shift/google-ads-competitor-tracker) to collect public ad observations, establish a baseline, and review newly observed or changed creatives on later runs. Mako publishes on Apify as **agency-shift**.
 
 This starter follows one exact advertiser account in Japan. You can replace it with another Google advertiser ID or competitor domain. Results include source links and observation times so you can inspect the evidence behind a creative review.
@@ -42,7 +44,7 @@ Run the same command later with a new output filename, for example `second-revie
 
 Exit code `0` means the run and reported coverage succeeded; `2` means results were saved but the run or coverage was incomplete; `1` means the client could not complete. Check SUMMARY even after success: successful source coverage does not guarantee complete creative text.
 
-The Python starter is validated with local mocked API tests. It has not been used for an end-to-end paid client run. See [curl instructions](docs/google-ads-monitoring.md#use-curl) if you prefer raw HTTP.
+The Python starter has eight passing mocked API tests. A live owner-account client run was attempted on 2 October 2026 and correctly surfaced the failed upstream run described above; a successful live Python-client run is not established. See [curl instructions](docs/google-ads-monitoring.md#use-curl) if you prefer raw HTTP.
 
 ## Use Claude Code, Claude, or ChatGPT
 

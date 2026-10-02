@@ -1,0 +1,542 @@
+[
+  {
+    "url": "https://makorev.com/",
+    "title": "Mako — GTM systems for B2B SaaS",
+    "description": "GTM engineering by Valdeir Lima. Signal sourcing, account research, outbound workflows, CRM integrations and AI automation for B2B SaaS.",
+    "h1": "Good signals.Better systems.Your next move.",
+    "textLength": 6978,
+    "text": "Skip to content+ GTM ENGINEERING FOR B2B SAASGood signals.Better systems.Your next move.I build the research, outbound and CRM workflows behind your sales process. Clear context for your team. Less work between the tools.Book a 15-minute fit callExplore the builds ↳Built with Valdeir Lima.Based in Ireland. Working globally.Hover or tapTap a signal. Follow the flow.↘↗Hiring◇Product launch⌁Buying intentm.RESEARCH & QUALIFYContext before contact.✳ACCOUNT BRIEFFor reviewHIRING SIGNALA growing team. A useful opening.Why this account?A SaaS team hiring in GTMWhat changed?Role, requirements & sourceWhat happens next?Offer help while they hireReview & outreachCRM handoffIllustrative workflow·Your team makes the next move.BUILT WITH YOUR STACKThe right tools. Connected around your workflow.Explore what each tool brings ↙All toolsData & researchAutomationCRM & outreachAI & codeClayEnrichmentApifyWeb dataApolloProspect researchn8nWorkflow orchestrationMakeVisual automationZZapierApp connectionsHubSpotCRM operationsAAttioRelationship dataInstantlyEmail sequencesHeyReachLinkedIn outreachClaude CodeCoding agentCxCodexCoding agentCuCursorAI code editorSSupabaseShared data layer↳ClayBring company research, contact enrichment and qualification into one table.Data & researchA stack shaped by the job. We agree on the tools and access before the build.01 / WHAT I BUILDThe work betweenyour tools. Handled.You have a product to sell. Mako builds the research, outreach and CRM workflows around your next stage of growth.01Signals & outboundFind the accounts worth a conversation. Connect public buying signals, account research and enrichment to a considered outreach process.FROM SIGNAL TO CONVERSATION↗Signal sourcing & account research↗Qualification & enrichment↗Outreach preparation & review02CRM & revenue operationsGive your sales process a reliable foundation. Connect the tools, clean up the handoffs and make the next step clear for every account.FROM SCATTERED DATA TO A CLEAR NEXT STEP↗Lead routing & lifecycle stages↗CRM integrations & data hygiene↗Workflow monitoring & reporting03AI & custom automationPut repetitive work into a workflow your team can inspect. Use AI for research, preparation and updates, with review where judgment matters.FROM MANUAL TASK TO REPEATABLE WORKFLOW↗Account research & call preparation↗AI-assisted qualification↗Custom scrapers & API integrations02 / SELECTED WORKBuilt to be useful.Open to inspection.My own engineering projects and fictional-data demonstrations. See what I built, how I checked it and where the evidence stops.01 / INDEPENDENT PROJECTOne reply. A shared stop.Keeping email and LinkedIn follow-ups consistent after a reply is retrieved and matched in my own outreach system.Identity matching · Supabase · n8n · Failure handlingRead the engineering case ↗02 / FICTIONAL DATA DEMOLead checks before the CRM.Eight sample records become two prepared payloads and six visible exceptions. Local tests; no CRM connected.Data quality · Batch deduplication · n8n workflowRead the preparation case ↗SUPPORTING PUBLIC WORKView Valdeir’s portfolio 01source.read()signal.extract()record.normalize()web-content-crawlerDATA & SIGNALSA custom research toolkit.Published Apify tools for collecting structured research data. The Web Content Crawler listing includes its inputs and sample output.Apify / Data collectionView published Apify tool ↗02↳ research↳ create↳ review▌agency-shift-skillsAI WORKFLOWSRepeatable work, encoded.Open-source Claude Code skills for marketing, content and creator operations. Practical instructions and workflows you can read and adapt.Claude Code / Automation / Open sourceRead the skill files ↗03linkedin-motion-rigENGINEERING EXPERIMENTContent production as code.A code-based motion graphics workflow for LinkedIn, combining HTML, CSS and frame-by-frame rendering to make content production repeatable.Node.js / HTML & CSS / ffmpegExplore the source code ↗03 / HOW WE WORKStart with oneworkflow that matters.A focused build gives you something concrete to use, evaluate and improve. We agree on the scope and how success will be checked before implementation.Discuss your workflow01Find the frictionMap the workflow, the people and the tools. Choose one bottleneck worth fixing.02Define the buildAgree on the inputs, deliverables, cost and acceptance criteria. Set the review points.03Build & validateConnect the system, test real examples and handle the edge cases with your team.04Put it in your handsDocument the workflow and hand it over. Scope any ongoing support separately.THE PERSON BEHIND MAKOValdeir LimaGTM & Automation EngineerWork directly withthe person building it.I’m Valdeir, based in Navan, Ireland. I build practical systems with n8n, Apify, Clay and custom code — from research pipelines to the integrations around your CRM.Mako is my independent work; some public tools use the Agency Shift name. I’m open to GTM and automation engineering roles, contract work and focused projects.You work with me from the first conversation through the handover. The aim is straightforward: a workflow your team understands, can inspect and can run.Meet me on LinkedIn A FEW PRACTICAL DETAILSBeforewe build.Who is Mako a good fit for?+B2B SaaS founders and small revenue teams with a product to sell and a specific operational bottleneck. That might be finding relevant accounts, connecting the CRM or reducing repetitive research. We use the first call to check the problem and whether a focused build is the right next step.What does the first engagement look like?+We start with one workflow. Before work begins, we agree on its scope, inputs, deliverables, cost and acceptance criteria. The build includes implementation, validation and documentation. Timing depends on the integrations and access required.Can you work with our existing tools?+Yes. I work with tools including n8n, Clay, Apify and HubSpot, and build custom integrations where useful. We review your current accounts and subscriptions before deciding what to keep, connect or add.Who owns and operates the system?+The aim is a system your team can operate in accounts you control. Code, workflow configuration, documentation and handover are defined in the project scope. Third-party software remains subject to its own licensing and subscription terms.Do you guarantee meetings or revenue?+No. I deliver the agreed systems and validate that they work. Commercial results also depend on your offer, market, data quality and sales execution. We agree on useful measures and improve the workflow using actual feedback.Where are you based?+Navan, Ireland. I work remotely with teams in Ireland, the UK, Europe and the US, with meeting times agreed around our shared working hours. Data sources, access and hosting requirements are agreed before implementation.LET’S MAKE THE NEXT STEP CLEAR.What’s slowingyour GTM down?Bring one bottleneck.We’ll explore what a useful first build could look like.Book a 15-minute fit call",
+    "linkCount": 7,
+    "links": [
+      "https://cal.com/mako-gtm/15min",
+      "https://apify.com/agency-shift/web-content-crawler",
+      "https://github.com/agency-shift/agency-shift-skills",
+      "https://github.com/valdeircs/linkedin-motion-rig",
+      "https://cal.com/mako-gtm/15min",
+      "https://www.linkedin.com/in/valdeir-lima/",
+      "https://cal.com/mako-gtm/15min"
+    ],
+    "crawledAt": "2026-10-02T13:28:26.906Z",
+    "loadedUrl": "https://makorev.com/",
+    "httpStatusCode": 200,
+    "textTruncated": false,
+    "textLengthBeforeTruncation": 6978,
+    "markdown": "GTM ENGINEERING FOR B2B SAAS\n\n# Good signals.  \n\nBetter systems.  \nYour next move.\n\nI build the research, outbound and CRM workflows behind your sales process. Clear context for your team. Less work between the tools.\n\n[Book a 15-minute fit call](https://cal.com/mako-gtm/15min)[Explore the builds](https://makorev.com/#projects)\n\nBuilt with Valdeir Lima.  \n**Based in Ireland. Working globally.**\n\nTHE GTM SYSTEM01 / 03\n\nHover or tapTap a signal. Follow the flow.\n\nRESEARCH & QUALIFY\n\n### Context before contact.\n\nACCOUNT BRIEFFor review\n\nHIRING SIGNAL\n\nA growing team. A useful opening.\n\nWhy this account?\n\nA SaaS team hiring in GTM\n\nWhat changed?\n\nRole, requirements & source\n\nWhat happens next?\n\nOffer help while they hire\n\nIllustrative workflowYour team makes the next move.\n\nBUILT WITH YOUR STACK\n\nThe right tools. Connected around your workflow.\n\nExplore what each tool brings\n\n**Clay**Bring company research, contact enrichment and qualification into one table.\n\nData & research\n\nA stack shaped by the job. We agree on the tools and access before the build.\n\n01 / WHAT I BUILD\n\n## The work between  \n\nyour tools. Handled.\n\nYou have a product to sell. Mako builds the research, outreach and CRM workflows around your next stage of growth.\n\n01\n\n### Signals & outbound\n\nFind the accounts worth a conversation. Connect public buying signals, account research and enrichment to a considered outreach process.\n\nFROM SIGNAL TO CONVERSATION\n\n-   Signal sourcing & account research\n-   Qualification & enrichment\n-   Outreach preparation & review\n\n02\n\n### CRM & revenue operations\n\nGive your sales process a reliable foundation. Connect the tools, clean up the handoffs and make the next step clear for every account.\n\nFROM SCATTERED DATA TO A CLEAR NEXT STEP\n\n-   Lead routing & lifecycle stages\n-   CRM integrations & data hygiene\n-   Workflow monitoring & reporting\n\n03\n\n### AI & custom automation\n\nPut repetitive work into a workflow your team can inspect. Use AI for research, preparation and updates, with review where judgment matters.\n\nFROM MANUAL TASK TO REPEATABLE WORKFLOW\n\n-   Account research & call preparation\n-   AI-assisted qualification\n-   Custom scrapers & API integrations\n\n02 / SELECTED WORK\n\n## Built to be useful.  \n\nOpen to inspection.\n\nMy own engineering projects and fictional-data demonstrations. See what I built, how I checked it and where the evidence stops.\n\n[01 / INDEPENDENT PROJECT\n\n### One reply. A shared stop.\n\nKeeping email and LinkedIn follow-ups consistent after a reply is retrieved and matched in my own outreach system.\n\nIdentity matching · Supabase · n8n · Failure handling\n\nRead the engineering case](https://makorev.com/portfolio/cross-channel-reply-stops) [02 / FICTIONAL DATA DEMO\n\n### Lead checks before the CRM.\n\nEight sample records become two prepared payloads and six visible exceptions. Local tests; no CRM connected.\n\nData quality · Batch deduplication · n8n workflow\n\nRead the preparation case](https://makorev.com/portfolio/crm-preparation)\n\nSUPPORTING PUBLIC WORK\n\n[View Valdeir’s portfolio](https://makorev.com/portfolio)\n\n[\n\nDATA & SIGNALS\n\n### A custom research toolkit.\n\nPublished Apify tools for collecting structured research data. The Web Content Crawler listing includes its inputs and sample output.\n\nApify / Data collectionView published Apify tool ↗\n\n](https://apify.com/agency-shift/web-content-crawler)[\n\nAI WORKFLOWS\n\n### Repeatable work, encoded.\n\nOpen-source Claude Code skills for marketing, content and creator operations. Practical instructions and workflows you can read and adapt.\n\nClaude Code / Automation / Open sourceRead the skill files ↗\n\n](https://github.com/agency-shift/agency-shift-skills)[\n\nENGINEERING EXPERIMENT\n\n### Content production as code.\n\nA code-based motion graphics workflow for LinkedIn, combining HTML, CSS and frame-by-frame rendering to make content production repeatable.\n\nNode.js / HTML & CSS / ffmpegExplore the source code ↗\n\n](https://github.com/valdeircs/linkedin-motion-rig)\n\n03 / HOW WE WORK\n\n## Start with one  \n\nworkflow that matters.\n\nA focused build gives you something concrete to use, evaluate and improve. We agree on the scope and how success will be checked before implementation.\n\n[Discuss your workflow](https://cal.com/mako-gtm/15min)\n\n01\n\n### Find the friction\n\nMap the workflow, the people and the tools. Choose one bottleneck worth fixing.\n\n02\n\n### Define the build\n\nAgree on the inputs, deliverables, cost and acceptance criteria. Set the review points.\n\n03\n\n### Build & validate\n\nConnect the system, test real examples and handle the edge cases with your team.\n\n04\n\n### Put it in your hands\n\nDocument the workflow and hand it over. Scope any ongoing support separately.\n\nTHE PERSON BEHIND MAKO\n\n![Valdeir Lima, GTM and automation engineer](https://makorev.com/_next/image?url=%2Fimages%2Fvaldeir-lima-portrait.png&w=3840&q=75)\n\nValdeir LimaGTM & Automation Engineer\n\n## Work directly with  \n\nthe person building it.\n\nI’m Valdeir, based in Navan, Ireland. I build practical systems with n8n, Apify, Clay and custom code — from research pipelines to the integrations around your CRM.\n\nMako is my independent work; some public tools use the Agency Shift name. I’m open to GTM and automation engineering roles, contract work and focused projects.\n\nYou work with me from the first conversation through the handover. The aim is straightforward: a workflow your team understands, can inspect and can run.\n\n[Meet me on LinkedIn](https://www.linkedin.com/in/valdeir-lima/)\n\nA FEW PRACTICAL DETAILS\n\n## Before  \n\nwe build.\n\nWho is Mako a good fit for?\n\nB2B SaaS founders and small revenue teams with a product to sell and a specific operational bottleneck. That might be finding relevant accounts, connecting the CRM or reducing repetitive research. We use the first call to check the problem and whether a focused build is the right next step.\n\nWhat does the first engagement look like?\n\nWe start with one workflow. Before work begins, we agree on its scope, inputs, deliverables, cost and acceptance criteria. The build includes implementation, validation and documentation. Timing depends on the integrations and access required.\n\nCan you work with our existing tools?\n\nYes. I work with tools including n8n, Clay, Apify and HubSpot, and build custom integrations where useful. We review your current accounts and subscriptions before deciding what to keep, connect or add.\n\nWho owns and operates the system?\n\nThe aim is a system your team can operate in accounts you control. Code, workflow configuration, documentation and handover are defined in the project scope. Third-party software remains subject to its own licensing and subscription terms.\n\nDo you guarantee meetings or revenue?\n\nNo. I deliver the agreed systems and validate that they work. Commercial results also depend on your offer, market, data quality and sales execution. We agree on useful measures and improve the workflow using actual feedback.\n\nWhere are you based?\n\nNavan, Ireland. I work remotely with teams in Ireland, the UK, Europe and the US, with meeting times agreed around our shared working hours. Data sources, access and hosting requirements are agreed before implementation.\n\nLET’S MAKE THE NEXT STEP CLEAR.\n\n## What’s slowing  \n\nyour GTM down?\n\nBring one bottleneck.  \nWe’ll explore what a useful first build could look like.\n\n[Book a 15-minute fit call](https://cal.com/mako-gtm/15min)",
+    "markdownTruncated": false,
+    "markdownLengthBeforeTruncation": 7393,
+    "markdownTruncationBoundary": null,
+    "markdownLength": 7393,
+    "contentSelector": "main",
+    "chunks": [
+      {
+        "id": "7510f1f9078eb9be2589adbfda38e53e351356f8ac5076348f9ebb23b1a67f4c",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [],
+        "content": "GTM ENGINEERING FOR B2B SAAS",
+        "contentHash": "c74bda6fc16bfe94e53a61df498455a70d739ec36d8d3df15c5b7a8ba4dbd5ee",
+        "characterCount": 28,
+        "oversized": false
+      },
+      {
+        "id": "4ca6cc3d2ef3cb744e275d997d2ba368e6f0b463d8a27edbdb8c428104affd88",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#main",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move."
+        ],
+        "content": "# Good signals.  \n\nBetter systems.  \nYour next move.\n\nI build the research, outbound and CRM workflows behind your sales process. Clear context for your team. Less work between the tools.\n\n[Book a 15-minute fit call](https://cal.com/mako-gtm/15min)[Explore the builds](https://makorev.com/#projects)\n\nBuilt with Valdeir Lima.  \n**Based in Ireland. Working globally.**\n\nTHE GTM SYSTEM01 / 03\n\nHover or tapTap a signal. Follow the flow.\n\nRESEARCH & QUALIFY",
+        "contentHash": "1b544b4a005914357f8fb6850357d31cf980ceee06bff84e921669c5ec27bdc5",
+        "characterCount": 454,
+        "oversized": false
+      },
+      {
+        "id": "b66f20d16791e7363d779fd3da0e0a52977dac0410c9909d838cab7affd183e4",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#main",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Context before contact."
+        ],
+        "content": "### Context before contact.\n\nACCOUNT BRIEFFor review\n\nHIRING SIGNAL\n\nA growing team. A useful opening.\n\nWhy this account?\n\nA SaaS team hiring in GTM\n\nWhat changed?\n\nRole, requirements & source\n\nWhat happens next?\n\nOffer help while they hire\n\nIllustrative workflowYour team makes the next move.\n\nBUILT WITH YOUR STACK\n\nThe right tools. Connected around your workflow.\n\nExplore what each tool brings\n\n**Clay**Bring company research, contact enrichment and qualification into one table.\n\nData & research\n\nA stack shaped by the job. We agree on the tools and access before the build.\n\n01 / WHAT I BUILD",
+        "contentHash": "522b7cb3cc55e487c43c0b39b89d6dd6994cee34c1f6448bf8ba20ff7861bc19",
+        "characterCount": 598,
+        "oversized": false
+      },
+      {
+        "id": "1d01c4a6cf00908e2c6bf2b87c1e53254b2b2ab206aa1318e7a00f119cf542fc",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#services",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "The work betweenyour tools. Handled."
+        ],
+        "content": "## The work between  \n\nyour tools. Handled.\n\nYou have a product to sell. Mako builds the research, outreach and CRM workflows around your next stage of growth.\n\n01",
+        "contentHash": "a8a5f3998cc532a0e938f1749011bff9f709f2a31a5deb62d62f96bae1239936",
+        "characterCount": 163,
+        "oversized": false
+      },
+      {
+        "id": "537c570a4614624edae0ea4fff7c38327ee14ca00fdb8922752e0c61413a2396",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#services",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "The work betweenyour tools. Handled.",
+          "Signals & outbound"
+        ],
+        "content": "### Signals & outbound\n\nFind the accounts worth a conversation. Connect public buying signals, account research and enrichment to a considered outreach process.\n\nFROM SIGNAL TO CONVERSATION\n\n-   Signal sourcing & account research\n-   Qualification & enrichment\n-   Outreach preparation & review\n\n02",
+        "contentHash": "9171315960e84e9a72dc324c539a2deea4e6c1872726cf636a8ea0c735be0d19",
+        "characterCount": 298,
+        "oversized": false
+      },
+      {
+        "id": "b6852dd155e51b37968349b3ecc437fe78fd68cb503c2c0cc1974ff04522bcd3",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#services",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "The work betweenyour tools. Handled.",
+          "CRM & revenue operations"
+        ],
+        "content": "### CRM & revenue operations\n\nGive your sales process a reliable foundation. Connect the tools, clean up the handoffs and make the next step clear for every account.\n\nFROM SCATTERED DATA TO A CLEAR NEXT STEP\n\n-   Lead routing & lifecycle stages\n-   CRM integrations & data hygiene\n-   Workflow monitoring & reporting\n\n03",
+        "contentHash": "4a1f6315d802800c8c2e8cb5c9a7fb6b6db34b88486792418b02d1923d077ef7",
+        "characterCount": 320,
+        "oversized": false
+      },
+      {
+        "id": "9e4dc07a1ec04a1c177d275b167330b1548323f9513dfc125292204a229b1a8a",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#services",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "The work betweenyour tools. Handled.",
+          "AI & custom automation"
+        ],
+        "content": "### AI & custom automation\n\nPut repetitive work into a workflow your team can inspect. Use AI for research, preparation and updates, with review where judgment matters.\n\nFROM MANUAL TASK TO REPEATABLE WORKFLOW\n\n-   Account research & call preparation\n-   AI-assisted qualification\n-   Custom scrapers & API integrations\n\n02 / SELECTED WORK",
+        "contentHash": "db01c6f4b83549a629f8b91ce1528d29eb3b9fa5caed50615a7828c80a1a046a",
+        "characterCount": 339,
+        "oversized": false
+      },
+      {
+        "id": "8fbaf75763a1e8ea133c1ade413bb7d0ab6c79f68ef0d0e986df90cd9716d842",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection."
+        ],
+        "content": "## Built to be useful.  \n\nOpen to inspection.\n\nMy own engineering projects and fictional-data demonstrations. See what I built, how I checked it and where the evidence stops.\n\n[01 / INDEPENDENT PROJECT",
+        "contentHash": "55f886a9702b296e5941a308c74c28a937f6d9de7a21be60ff0a2335540049e8",
+        "characterCount": 201,
+        "oversized": false
+      },
+      {
+        "id": "abd6001da1e4467cce786464782d3df78a8abfec777214e149a7a222c8bfb879",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection.",
+          "One reply. A shared stop."
+        ],
+        "content": "### One reply. A shared stop.\n\nKeeping email and LinkedIn follow-ups consistent after a reply is retrieved and matched in my own outreach system.\n\nIdentity matching · Supabase · n8n · Failure handling\n\nRead the engineering case](https://makorev.com/portfolio/cross-channel-reply-stops) [02 / FICTIONAL DATA DEMO",
+        "contentHash": "dd771d1f286cbb3e7d586d82d1e9d76ee175b2fe689437fa96c0c7bdd30487ec",
+        "characterCount": 311,
+        "oversized": false
+      },
+      {
+        "id": "1f1637e8ebb5e7c9f93c54fcf66743a3cee276e5e5a2084a594e34a39967a561",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection.",
+          "Lead checks before the CRM."
+        ],
+        "content": "### Lead checks before the CRM.\n\nEight sample records become two prepared payloads and six visible exceptions. Local tests; no CRM connected.\n\nData quality · Batch deduplication · n8n workflow\n\nRead the preparation case](https://makorev.com/portfolio/crm-preparation)\n\nSUPPORTING PUBLIC WORK\n\n[View Valdeir’s portfolio](https://makorev.com/portfolio)\n\n[\n\nDATA & SIGNALS",
+        "contentHash": "2dd45f698c4e08f56bd75bf42e6b4083fc96a7cacfe6be9afb986a696ab3ff66",
+        "characterCount": 369,
+        "oversized": false
+      },
+      {
+        "id": "94bdcd251f6e3008b1e93cb273f4417c7e873afe4e713f560e8dc1ce2d3def71",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection.",
+          "A custom research toolkit."
+        ],
+        "content": "### A custom research toolkit.\n\nPublished Apify tools for collecting structured research data. The Web Content Crawler listing includes its inputs and sample output.\n\nApify / Data collectionView published Apify tool ↗\n\n](https://apify.com/agency-shift/web-content-crawler)[\n\nAI WORKFLOWS",
+        "contentHash": "bb166ca39589f404ea66e71d660f27c9d1e437c6ed37efd46ae52aaf5ec1aaae",
+        "characterCount": 287,
+        "oversized": false
+      },
+      {
+        "id": "34cec9c2bc4d4cc62541b5c9e16685c73b2d900dd8bd9aea81b2896fa0222306",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection.",
+          "Repeatable work, encoded."
+        ],
+        "content": "### Repeatable work, encoded.\n\nOpen-source Claude Code skills for marketing, content and creator operations. Practical instructions and workflows you can read and adapt.\n\nClaude Code / Automation / Open sourceRead the skill files ↗\n\n](https://github.com/agency-shift/agency-shift-skills)[\n\nENGINEERING EXPERIMENT",
+        "contentHash": "7efdf5871230d1e2a86d4c9480f6f776f806569f3010e936c00e1533040e8244",
+        "characterCount": 312,
+        "oversized": false
+      },
+      {
+        "id": "2e98d25d9d69907a14a556dcb309a8719203813649f6c98e4babaa22bf203cab",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#projects",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Built to be useful.Open to inspection.",
+          "Content production as code."
+        ],
+        "content": "### Content production as code.\n\nA code-based motion graphics workflow for LinkedIn, combining HTML, CSS and frame-by-frame rendering to make content production repeatable.\n\nNode.js / HTML & CSS / ffmpegExplore the source code ↗\n\n](https://github.com/valdeircs/linkedin-motion-rig)\n\n03 / HOW WE WORK",
+        "contentHash": "2d04e911a47cc767fbe012ed0be46fb50181a788b71f598477d8b315be14f152",
+        "characterCount": 299,
+        "oversized": false
+      },
+      {
+        "id": "9ffcb5283f300e006e86a6c06c0b07425535c24f342bfed043dad9ce6227b868",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#process",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Start with oneworkflow that matters."
+        ],
+        "content": "## Start with one  \n\nworkflow that matters.\n\nA focused build gives you something concrete to use, evaluate and improve. We agree on the scope and how success will be checked before implementation.\n\n[Discuss your workflow](https://cal.com/mako-gtm/15min)\n\n01",
+        "contentHash": "82400c991ba882d35e4e22243672e9f7301ab3f488c6d821441b427b7cafd078",
+        "characterCount": 257,
+        "oversized": false
+      },
+      {
+        "id": "523469d2139d5156d240a10a4818720bc0d0410483964b27dfc04810d98cf2f2",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#process",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Start with oneworkflow that matters.",
+          "Find the friction"
+        ],
+        "content": "### Find the friction\n\nMap the workflow, the people and the tools. Choose one bottleneck worth fixing.\n\n02",
+        "contentHash": "6fe92cdc35c98113fdf9257e0881247c0dd8001722ae364204b195bde1033687",
+        "characterCount": 106,
+        "oversized": false
+      },
+      {
+        "id": "f0d0f141c5e2f99ac1f2c5dd0db3d0600aaff3b026a796fa169a8356c4145a6d",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#process",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Start with oneworkflow that matters.",
+          "Define the build"
+        ],
+        "content": "### Define the build\n\nAgree on the inputs, deliverables, cost and acceptance criteria. Set the review points.\n\n03",
+        "contentHash": "727e543a42f9580e132c6c11793b8c85fc524542ed72cf73e9d40c19eaea90ec",
+        "characterCount": 113,
+        "oversized": false
+      },
+      {
+        "id": "905d22e5516b67c52d4809d9ed410d634d63ee083498131905a460f439759ddd",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#process",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Start with oneworkflow that matters.",
+          "Build & validate"
+        ],
+        "content": "### Build & validate\n\nConnect the system, test real examples and handle the edge cases with your team.\n\n04",
+        "contentHash": "29fe7a476d7ffdac0724a96c133c6941993944f6b808e9cb3dbb0e5d7ca18a95",
+        "characterCount": 106,
+        "oversized": false
+      },
+      {
+        "id": "67887fbbe51b5848469f73fac220318a5fdbf7fdfb3e4d3ecc904394eca19003",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#process",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Start with oneworkflow that matters.",
+          "Put it in your hands"
+        ],
+        "content": "### Put it in your hands\n\nDocument the workflow and hand it over. Scope any ongoing support separately.\n\nTHE PERSON BEHIND MAKO\n\n![Valdeir Lima, GTM and automation engineer](https://makorev.com/_next/image?url=%2Fimages%2Fvaldeir-lima-portrait.png&w=3840&q=75)\n\nValdeir LimaGTM & Automation Engineer",
+        "contentHash": "e3e628d3bc6e713e29e12d820ca4c0c58cb410d9acb582ac4e0eab7f14aa21c2",
+        "characterCount": 299,
+        "oversized": false
+      },
+      {
+        "id": "77fe1b131300f5768b083547ce93781e13e3d7bb948d07b9c44eb74ed7d7a423",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#about",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Work directly withthe person building it."
+        ],
+        "content": "## Work directly with  \n\nthe person building it.\n\nI’m Valdeir, based in Navan, Ireland. I build practical systems with n8n, Apify, Clay and custom code — from research pipelines to the integrations around your CRM.\n\nMako is my independent work; some public tools use the Agency Shift name. I’m open to GTM and automation engineering roles, contract work and focused projects.\n\nYou work with me from the first conversation through the handover. The aim is straightforward: a workflow your team understands, can inspect and can run.\n\n[Meet me on LinkedIn](https://www.linkedin.com/in/valdeir-lima/)\n\nA FEW PRACTICAL DETAILS",
+        "contentHash": "6d45a5bf90da60b9036bd93a1730f8fdc638af1cee9de58f74203f309ee267f0",
+        "characterCount": 621,
+        "oversized": false
+      },
+      {
+        "id": "ddcd02bbbf3ec5010be87d85d2a1c223bcef67d3d091510d1f8c22c457e5cb75",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#faq",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "Beforewe build."
+        ],
+        "content": "## Before  \n\nwe build.\n\nWho is Mako a good fit for?\n\nB2B SaaS founders and small revenue teams with a product to sell and a specific operational bottleneck. That might be finding relevant accounts, connecting the CRM or reducing repetitive research. We use the first call to check the problem and whether a focused build is the right next step.\n\nWhat does the first engagement look like?\n\nWe start with one workflow. Before work begins, we agree on its scope, inputs, deliverables, cost and acceptance criteria. The build includes implementation, validation and documentation. Timing depends on the integrations and access required.\n\nCan you work with our existing tools?\n\nYes. I work with tools including n8n, Clay, Apify and HubSpot, and build custom integrations where useful. We review your current accounts and subscriptions before deciding what to keep, connect or add.\n\nWho owns and operates the system?\n\nThe aim is a system your team can operate in accounts you control. Code, workflow configuration, documentation and handover are defined in the project scope. Third-party software remains subject to its own licensing and subscription terms.\n\nDo you guarantee meetings or revenue?\n\nNo. I deliver the agreed systems and validate that they work. Commercial results also depend on your offer, market, data quality and sales execution. We agree on useful measures and improve the workflow using actual feedback.\n\nWhere are you based?\n\nNavan, Ireland. I work remotely with teams in Ireland, the UK, Europe and the US, with meeting times agreed around our shared working hours. Data sources, access and hosting requirements are agreed before implementation.\n\nLET’S MAKE THE NEXT STEP CLEAR.",
+        "contentHash": "c3e4b3cb32b0b92126e05da80cea95a317fbab11e5575f84c97600abd60c10b5",
+        "characterCount": 1694,
+        "oversized": false
+      },
+      {
+        "id": "8d7c16edb7155b58c6fa0826cd6e29273402482f83c7992a50832a10588d24c2",
+        "sourceUrl": "https://makorev.com/",
+        "sectionUrl": "https://makorev.com/#main",
+        "title": "Mako — GTM systems for B2B SaaS",
+        "headingPath": [
+          "Good signals.Better systems.Your next move.",
+          "What’s slowingyour GTM down?"
+        ],
+        "content": "## What’s slowing  \n\nyour GTM down?\n\nBring one bottleneck.  \nWe’ll explore what a useful first build could look like.\n\n[Book a 15-minute fit call](https://cal.com/mako-gtm/15min)",
+        "contentHash": "968a3c5060b83d5aa7a074e12568c89ecb2d27b303ec37ea7926c6669040ba8c",
+        "characterCount": 178,
+        "oversized": false
+      }
+    ],
+    "chunkCount": 21,
+    "oversizedChunkCount": 0
+  },
+  {
+    "url": "https://makorev.com/blog/google-ads-competitor-tracking",
+    "title": "How to track competitor Google ads with Apify and Claude | Mako",
+    "description": "Build a bounded Google Ads competitor monitor: exact advertiser IDs, country filters, saved comparisons, costs, source evidence, and an OAuth connection to Claude.",
+    "h1": "How to track competitor Google ads with Apify and Claude",
+    "textLength": 11317,
+    "text": "Skip to the guide← All postsValdeir Lima · 2 October 2026 · 7 min readHow to track competitor Google ads with Apify and ClaudeA useful competitor ad review starts with evidence: which creative you observed, where you found it, and what changed since the previous check. This guide builds that workflow with Mako's Google Ads Competitor Tracker on Apify, from a small first run to a recurring watch that an AI assistant can read.Use it to prepare an agency creative review, follow an advertiser in a target market, or keep a source-linked research log. You get public observations from the Google Ads Transparency Center. Spend, conversions and profitability are outside this dataset.Try Google Ads Competitor Tracker →Runs on your Apify account. Review the published pricing and set a run budget before starting.1. Start with one advertiser and one countryFor an exact account, copy its advertiser ID from its Google Transparency page. This example uses Notion Labs Japan's advertiser accountand asks for ads shown in Japan. The country filter describes where the ads were shown, not the advertiser's registration country.Open the prepared Notion Japan exampleto inspect and run it, or open the Actor's Input tab, switch to JSON, and paste the following input. It saves a baseline and delivers up to 20 initial observations. Keep the monitor name so later runs can compare against the same history.A bounded first run — JSON input{ \"advertiserIds\": [ \"AR10888897372843147265\" ], \"region\": \"JP\", \"format\": \"ALL\", \"mode\": \"changes\", \"monitorName\": \"mako-notion-japan-example-20261002\", \"emitInitialSnapshot\": true, \"maxResults\": 20, \"maxAdsPerDomain\": 20, \"includeCreativeDetails\": true, \"maxCreativeDetails\": 20 }Set the maximum Actor charge to $0.05 in the run options, then start. That is a ceiling, not a prepaid fee. Wait for the run to finish, then open both its dataset and the SUMMARY record in its key-value store.To research a domain instead, replace advertiserIds with \"domains\": [\"your-competitor.com\"]. Domain results can include agencies or other advertisers associated with that site; check the advertiser identity before attributing an ad to a brand. You can supply up to ten domains and advertiser IDs combined. Set country and format explicitly: filters in a pasted Google URL are not imported.2. Turn the dataset into a reviewable ad logKeep a compact table for the people doing the review. Export JSON for complete nested data, or CSV/Excel for a spreadsheet. Preserve the original creative link alongside every observation so someone can check the source.Recommended fields and their meaningFieldWhat to use it foradvertiserName + advertiserIdIdentify the public advertiser account.creativeId + creativeUrlIdentify the creative and open its source page.searchRegion + formatKeep the country scope and creative format visible.observedAtRecord when this monitor collected the observation.firstShown + lastShownRetain Google's dates when supplied; these are not performance data.eventType + changedFieldsSeparate the baseline, newly observed ads and changes.before + after + eventIdInspect changed values and deduplicate repeated deliveries.Some rows have no readable ad copy. Missing text or images stay null. The example enables includeCreativeDetails, with a ceiling of 20 preview requests across the run. Set it to false for listing data alone. Optional extraction visits supported public previews; it does not run OCR, transcribe videos or guarantee complete copy.What the example actually returnedOn 2 October 2026, the first test delivered 13 initial observations. All 13 had creative links, 12 had image URLs, and none had readable ad copy. One optional preview request failed. The listing scan succeeded; the missing copy remained explicit. Here is a selected set of fields from one real record:Observed output — real record, selected fields{ \"advertiserName\": \"Notion Labs Japan合同会社\", \"advertiserId\": \"AR10888897372843147265\", \"creativeId\": \"CR15371418889862774785\", \"searchRegion\": \"JP\", \"format\": \"TEXT\", \"adText\": null, \"observedAt\": \"2026-10-02T12:44:11.043Z\", \"eventType\": \"initial\", \"creativeUrl\": \"https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP\" }Open this creative's Google source page. A repeat test observed the same 13 creatives and delivered zero new or changed records. That demonstrates deduplication for these two runs, not a promise that future scans will return the same data or that every ad was captured.Check SUMMARY for successful scans, errors, capped coverage and preview availability. A successful run with zero changes can be legitimate. A failed source request, an unvisited target and a genuinely empty response should lead to different decisions.Use the public input files, sample output and monitoring examples on GitHub to reproduce the workflow.3. Repeat the same watch and review the differencesSave the input as an Apify task. Add an Apify Schedule at a cadence you actually review, such as once a week. The Actor itself does not create the schedule or send notifications; connect Apify webhooks or your own workflow for delivery.Keep mode: \"changes\", the monitor name, target, country and format consistent. Country and format changes have separate baselines.On the first run, emitInitialSnapshot: true delivers the starting observations. Set it to false if you only want to seed history.On later runs, review new and changed events. New means first observed by this monitor; a changed event includes previous and current values.Deduplicate exports or webhook deliveries by eventId. Delivery is at least once, so an interrupted run can repeat an event.For an agency review, group observations by advertiser and format, open the source links, and annotate the message or visual you can actually inspect. Let an assistant summarize that evidence, then review its interpretation before using it in a client report.maxResults caps delivered records across the run. maxAdsPerDomain caps observations per target, including advertiser IDs and unchanged ads. Keep both small while testing. Increasing only the output cap does not make a source scan complete.4. Budget for records, including the first baselineThe base price is $0.78 per 1,000 delivered records, before plan discounts, plus a $0.00005 startup event. Startup is charged per allocated GB with a minimum of one event. Platform compute is included. Check the current Actor pricing before running.At those base rates and one startup event, 20 delivered records cost about $0.01565. The $0.05 ceiling above leaves room for this example; the minimum permitted maximum-charge budget is $0.01. Actual charges depend on delivered records, memory, applicable discounts and the current published price.For the 13 records in our test, the base-rate illustration is 13 × $0.00078 + $0.00005 = $0.01019. A repeat with no delivered records still has the startup fee. These are customer pricing examples, not a claim about an individual account's invoice.Snapshot mode charges for every delivered snapshot. Changes mode charges for delivered initial, new and changed records. Unchanged observations and the summary do not add record fees, but startup still applies to an empty run. Optional preview extraction has no separate event fee; it can increase runtime.5. Give Claude access through Apify's MCP serverApify hosts the connection; you do not need to build a server. In an installed Claude Code CLI, add this Actor, sign in to your own Apify account through the browser, and check the connection:Claude Code — run these commands in your terminalclaude mcp add --transport http --scope user mako-google-ads 'https://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actor' claude mcp login mako-google-ads claude mcp get mako-google-adsLook for a connected status. If authentication is still needed, open /mcp inside Claude Code and follow the sign-in flow. OAuth connects your own Apify account; do not paste an API token into a shared prompt or public configuration. Runs use your account and normal Actor pricing.Prompt after connecting — paste the JSON from step 1 with itUse the Apify call-actor tool with: actor: \"agency-shift/google-ads-competitor-tracker\" input: the JSON below callOptions: {\"maxTotalChargeUsd\": 0.05, \"timeout\": 180} Use call-actor so the spending cap is applied. Wait for completion, then retrieve the dataset and SUMMARY. Return advertiser name, format, event type and creative URL. Explain coverage errors and keep missing values as null. Do not infer spend, profitability, launches or stopped campaigns.This connection includes the Actor and Apify's generic call-actortool. Use call-actor for this example because its callOptions.maxTotalChargeUsd field supports the spending cap; the dedicated Actor tool does not expose that option.A successful connection should let you see the exact Actor run in Apify, retrieve its final status and read its dataset and summary. Seeing a saved connector alone does not prove a run worked. See the Claude Code MCP reference and the Apify MCP guide for connection details.We verified an actual capped run and result retrieval through Apify's MCP protocol. The desktop and chat-client sign-in flows below are setup instructions; they were not tested end to end in each client for this guide.Claude Desktop and ChatGPTIn Claude Desktop, add a custom remote connector using the URL below and authorize Apify through OAuth. In ChatGPT on the web, use Developer mode and create a custom app with this URL if your account and workspace permit it. Select the app for the request and use the same bounded prompt.Actor-specific remote MCP URLhttps://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actorClient availability and settings vary. Follow the current Claude Desktop setup or ChatGPT setup, and check your workspace's tool permissions. Connecting makes the Actor available to your assistant; it does not guarantee that every AI conversation will discover or recommend it.6. Keep the conclusions within the evidenceSource limits, ordering, blocks and partial responses can affect coverage. This is a bounded observation workflow, not an exhaustive inventory.An absent ad does not establish that a campaign stopped. The Actor does not emit disappearance or retirement events.First observed is different from first launched. Google's first/last-shown dates and the monitor's observation time describe different things.Creative format is not a platform filter. The Actor searches across Google platforms and does not offer date-range filtering.No spend, impressions, conversions, ROI or private Google Ads account data are supplied. Inspect original links before making marketing decisions.Start with one useful question: what publicly visible creative changed for this advertiser in this market? Keep the source, the observation time and the coverage alongside your answer. That gives the next review a concrete starting point.Keep the workflow reproducibleThe GitHub examples contain the input and output files. The Actor's Issues tab is the place to report a reproducible source or output problem.Built by Mako. Independent of Google, Notion and the advertisers returned. Examples are research observations, not endorsements or customer results.",
+    "linkCount": 13,
+    "links": [
+      "https://adstransparency.google.com/",
+      "https://apify.com/agency-shift/google-ads-competitor-tracker",
+      "https://adstransparency.google.com/advertiser/AR10888897372843147265?region=JP",
+      "https://apify.com/agency-shift/google-ads-competitor-tracker/examples/track-notion-japan-google-ad-creatives",
+      "https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP",
+      "https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring",
+      "https://apify.com/agency-shift/google-ads-competitor-tracker/pricing",
+      "https://code.claude.com/docs/en/mcp",
+      "https://docs.apify.com/integrations/mcp",
+      "https://docs.apify.com/integrations/claude-desktop",
+      "https://docs.apify.com/integrations/chatgpt",
+      "https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring",
+      "https://apify.com/agency-shift/google-ads-competitor-tracker/issues"
+    ],
+    "crawledAt": "2026-10-02T13:28:26.947Z",
+    "loadedUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+    "httpStatusCode": 200,
+    "textTruncated": false,
+    "textLengthBeforeTruncation": 11317,
+    "markdown": "[← All posts](https://makorev.com/blog)\n\nValdeir Lima · 2 October 2026 · 7 min read\n\n# How to track competitor Google ads with Apify and Claude\n\nA useful competitor ad review starts with evidence: which creative you observed, where you found it, and what changed since the previous check. This guide builds that workflow with Mako's Google Ads Competitor Tracker on Apify, from a small first run to a recurring watch that an AI assistant can read.\n\nUse it to prepare an agency creative review, follow an advertiser in a target market, or keep a source-linked research log. You get public observations from the [Google Ads Transparency Center](https://adstransparency.google.com/). Spend, conversions and profitability are outside this dataset.\n\n[Try Google Ads Competitor Tracker →](https://apify.com/agency-shift/google-ads-competitor-tracker)\n\nRuns on your Apify account. Review the published pricing and set a run budget before starting.\n\n## 1\\. Start with one advertiser and one country\n\nFor an exact account, copy its advertiser ID from its Google Transparency page. This example uses [Notion Labs Japan's advertiser account](https://adstransparency.google.com/advertiser/AR10888897372843147265?region=JP)and asks for ads shown in Japan. The country filter describes where the ads were shown, not the advertiser's registration country.\n\nOpen the [prepared Notion Japan example](https://apify.com/agency-shift/google-ads-competitor-tracker/examples/track-notion-japan-google-ad-creatives)to inspect and run it, or open the Actor's Input tab, switch to JSON, and paste the following input. It saves a baseline and delivers up to 20 initial observations. Keep the monitor name so later runs can compare against the same history.\n\nA bounded first run — JSON input\n\n```\n{\n  \"advertiserIds\": [\n    \"AR10888897372843147265\"\n  ],\n  \"region\": \"JP\",\n  \"format\": \"ALL\",\n  \"mode\": \"changes\",\n  \"monitorName\": \"mako-notion-japan-example-20261002\",\n  \"emitInitialSnapshot\": true,\n  \"maxResults\": 20,\n  \"maxAdsPerDomain\": 20,\n  \"includeCreativeDetails\": true,\n  \"maxCreativeDetails\": 20\n}\n```\n\nSet the maximum Actor charge to **$0.05** in the run options, then start. That is a ceiling, not a prepaid fee. Wait for the run to finish, then open both its dataset and the `SUMMARY` record in its key-value store.\n\nTo research a domain instead, replace `advertiserIds` with` \"domains\": [\"your-competitor.com\"]`. Domain results can include agencies or other advertisers associated with that site; check the advertiser identity before attributing an ad to a brand. You can supply up to ten domains and advertiser IDs combined. Set country and format explicitly: filters in a pasted Google URL are not imported.\n\n## 2\\. Turn the dataset into a reviewable ad log\n\nKeep a compact table for the people doing the review. Export JSON for complete nested data, or CSV/Excel for a spreadsheet. Preserve the original creative link alongside every observation so someone can check the source.\n\nRecommended fields and their meaning\n| Field | What to use it for |\n| --- | --- |\n| advertiserName + advertiserId | Identify the public advertiser account. |\n| creativeId + creativeUrl | Identify the creative and open its source page. |\n| searchRegion + format | Keep the country scope and creative format visible. |\n| observedAt | Record when this monitor collected the observation. |\n| firstShown + lastShown | Retain Google's dates when supplied; these are not performance data. |\n| eventType + changedFields | Separate the baseline, newly observed ads and changes. |\n| before + after + eventId | Inspect changed values and deduplicate repeated deliveries. |\n\nSome rows have no readable ad copy. Missing text or images stay `null`. The example enables `includeCreativeDetails`, with a ceiling of 20 preview requests across the run. Set it to `false` for listing data alone. Optional extraction visits supported public previews; it does not run OCR, transcribe videos or guarantee complete copy.\n\n### What the example actually returned\n\nOn 2 October 2026, the first test delivered 13 initial observations. All 13 had creative links, 12 had image URLs, and none had readable ad copy. One optional preview request failed. The listing scan succeeded; the missing copy remained explicit. Here is a selected set of fields from one real record:\n\nObserved output — real record, selected fields\n\n```\n{\n  \"advertiserName\": \"Notion Labs Japan合同会社\",\n  \"advertiserId\": \"AR10888897372843147265\",\n  \"creativeId\": \"CR15371418889862774785\",\n  \"searchRegion\": \"JP\",\n  \"format\": \"TEXT\",\n  \"adText\": null,\n  \"observedAt\": \"2026-10-02T12:44:11.043Z\",\n  \"eventType\": \"initial\",\n  \"creativeUrl\": \"https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP\"\n}\n```\n\n[Open this creative's Google source page](https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP). A repeat test observed the same 13 creatives and delivered zero new or changed records. That demonstrates deduplication for these two runs, not a promise that future scans will return the same data or that every ad was captured.\n\nCheck `SUMMARY` for successful scans, errors, capped coverage and preview availability. A successful run with zero changes can be legitimate. A failed source request, an unvisited target and a genuinely empty response should lead to different decisions.\n\nUse the [public input files, sample output and monitoring examples on GitHub](https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring) to reproduce the workflow.\n\n## 3\\. Repeat the same watch and review the differences\n\nSave the input as an Apify task. Add an Apify Schedule at a cadence you actually review, such as once a week. The Actor itself does not create the schedule or send notifications; connect Apify webhooks or your own workflow for delivery.\n\n1.  Keep `mode: \"changes\"`, the monitor name, target, country and format consistent. Country and format changes have separate baselines.\n2.  On the first run, `emitInitialSnapshot: true` delivers the starting observations. Set it to `false` if you only want to seed history.\n3.  On later runs, review `new` and `changed` events. New means first observed by this monitor; a changed event includes previous and current values.\n4.  Deduplicate exports or webhook deliveries by `eventId`. Delivery is at least once, so an interrupted run can repeat an event.\n\nFor an agency review, group observations by advertiser and format, open the source links, and annotate the message or visual you can actually inspect. Let an assistant summarize that evidence, then review its interpretation before using it in a client report.\n\n`maxResults` caps delivered records across the run.` maxAdsPerDomain` caps observations per target, including advertiser IDs and unchanged ads. Keep both small while testing. Increasing only the output cap does not make a source scan complete.\n\n## 4\\. Budget for records, including the first baseline\n\nThe base price is **$0.78 per 1,000 delivered records**, before plan discounts, plus a **$0.00005 startup event**. Startup is charged per allocated GB with a minimum of one event. Platform compute is included. Check the [current Actor pricing](https://apify.com/agency-shift/google-ads-competitor-tracker/pricing) before running.\n\nAt those base rates and one startup event, 20 delivered records cost about **$0.01565**. The $0.05 ceiling above leaves room for this example; the minimum permitted maximum-charge budget is $0.01. Actual charges depend on delivered records, memory, applicable discounts and the current published price.\n\nFor the 13 records in our test, the base-rate illustration is` 13 × $0.00078 + $0.00005 = $0.01019`. A repeat with no delivered records still has the startup fee. These are customer pricing examples, not a claim about an individual account's invoice.\n\nSnapshot mode charges for every delivered snapshot. Changes mode charges for delivered initial, new and changed records. Unchanged observations and the summary do not add record fees, but startup still applies to an empty run. Optional preview extraction has no separate event fee; it can increase runtime.\n\n## 5\\. Give Claude access through Apify's MCP server\n\nApify hosts the connection; you do not need to build a server. In an installed Claude Code CLI, add this Actor, sign in to your own Apify account through the browser, and check the connection:\n\nClaude Code — run these commands in your terminal\n\n```\nclaude mcp add --transport http --scope user mako-google-ads 'https://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actor'\nclaude mcp login mako-google-ads\nclaude mcp get mako-google-ads\n```\n\nLook for a connected status. If authentication is still needed, open` /mcp` inside Claude Code and follow the sign-in flow. OAuth connects your own Apify account; do not paste an API token into a shared prompt or public configuration. Runs use your account and normal Actor pricing.\n\nPrompt after connecting — paste the JSON from step 1 with it\n\n```\nUse the Apify call-actor tool with:\nactor: \"agency-shift/google-ads-competitor-tracker\"\ninput: the JSON below\ncallOptions: {\"maxTotalChargeUsd\": 0.05, \"timeout\": 180}\n\nUse call-actor so the spending cap is applied.\nWait for completion, then retrieve the dataset and SUMMARY.\nReturn advertiser name, format, event type and creative URL.\nExplain coverage errors and keep missing values as null.\nDo not infer spend, profitability, launches or stopped campaigns.\n```\n\nThis connection includes the Actor and Apify's generic `call-actor`tool. Use `call-actor` for this example because its` callOptions.maxTotalChargeUsd` field supports the spending cap; the dedicated Actor tool does not expose that option.\n\nA successful connection should let you see the exact Actor run in Apify, retrieve its final status and read its dataset and summary. Seeing a saved connector alone does not prove a run worked. See the [Claude Code MCP reference](https://code.claude.com/docs/en/mcp) and the [Apify MCP guide](https://docs.apify.com/integrations/mcp) for connection details.\n\nWe verified an actual capped run and result retrieval through Apify's MCP protocol. The desktop and chat-client sign-in flows below are setup instructions; they were not tested end to end in each client for this guide.\n\n### Claude Desktop and ChatGPT\n\nIn Claude Desktop, add a custom remote connector using the URL below and authorize Apify through OAuth. In ChatGPT on the web, use Developer mode and create a custom app with this URL if your account and workspace permit it. Select the app for the request and use the same bounded prompt.\n\nActor-specific remote MCP URL\n\n```\nhttps://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actor\n```\n\nClient availability and settings vary. Follow the current [Claude Desktop setup](https://docs.apify.com/integrations/claude-desktop) or [ChatGPT setup](https://docs.apify.com/integrations/chatgpt), and check your workspace's tool permissions. Connecting makes the Actor available to your assistant; it does not guarantee that every AI conversation will discover or recommend it.\n\n## 6\\. Keep the conclusions within the evidence\n\n-   Source limits, ordering, blocks and partial responses can affect coverage. This is a bounded observation workflow, not an exhaustive inventory.\n-   An absent ad does not establish that a campaign stopped. The Actor does not emit disappearance or retirement events.\n-   First observed is different from first launched. Google's first/last-shown dates and the monitor's observation time describe different things.\n-   Creative format is not a platform filter. The Actor searches across Google platforms and does not offer date-range filtering.\n-   No spend, impressions, conversions, ROI or private Google Ads account data are supplied. Inspect original links before making marketing decisions.\n\nStart with one useful question: what publicly visible creative changed for this advertiser in this market? Keep the source, the observation time and the coverage alongside your answer. That gives the next review a concrete starting point.\n\n## Keep the workflow reproducible\n\nThe [GitHub examples](https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring) contain the input and output files. The [Actor's Issues tab](https://apify.com/agency-shift/google-ads-competitor-tracker/issues) is the place to report a reproducible source or output problem.\n\nBuilt by Mako. Independent of Google, Notion and the advertisers returned. Examples are research observations, not endorsements or customer results.",
+    "markdownTruncated": false,
+    "markdownLengthBeforeTruncation": 12648,
+    "markdownTruncationBoundary": null,
+    "markdownLength": 12648,
+    "contentSelector": "main article",
+    "chunks": [
+      {
+        "id": "96e019eee08f8ccc0c5ab7f0940ae899c199f2bfe9a2ea9b90b0155851976bd5",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [],
+        "content": "[← All posts](https://makorev.com/blog)\n\nValdeir Lima · 2 October 2026 · 7 min read",
+        "contentHash": "e0dc7fa19a77b2d6ecadfe17f909b8a0aef073fbbb940cf7225748990b9d0a4d",
+        "characterCount": 83,
+        "oversized": false
+      },
+      {
+        "id": "5ba162eefcdeb75ca182db204b0e4adbd66fc03e8793dfcbc2a5949045bd870e",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#article",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude"
+        ],
+        "content": "# How to track competitor Google ads with Apify and Claude\n\nA useful competitor ad review starts with evidence: which creative you observed, where you found it, and what changed since the previous check. This guide builds that workflow with Mako's Google Ads Competitor Tracker on Apify, from a small first run to a recurring watch that an AI assistant can read.\n\nUse it to prepare an agency creative review, follow an advertiser in a target market, or keep a source-linked research log. You get public observations from the [Google Ads Transparency Center](https://adstransparency.google.com/). Spend, conversions and profitability are outside this dataset.\n\n[Try Google Ads Competitor Tracker →](https://apify.com/agency-shift/google-ads-competitor-tracker)\n\nRuns on your Apify account. Review the published pricing and set a run budget before starting.",
+        "contentHash": "2fe9a1569960a5806bb0782fe3c62b2dce258b4b89e66f081e89eeac488f48b9",
+        "characterCount": 855,
+        "oversized": false
+      },
+      {
+        "id": "41719cf6a4855ba6ffce6bd8f080b2a1392e1de2852efcf18f87c72982ec9b87",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#first-run",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "1. Start with one advertiser and one country"
+        ],
+        "content": "## 1\\. Start with one advertiser and one country\n\nFor an exact account, copy its advertiser ID from its Google Transparency page. This example uses [Notion Labs Japan's advertiser account](https://adstransparency.google.com/advertiser/AR10888897372843147265?region=JP)and asks for ads shown in Japan. The country filter describes where the ads were shown, not the advertiser's registration country.\n\nOpen the [prepared Notion Japan example](https://apify.com/agency-shift/google-ads-competitor-tracker/examples/track-notion-japan-google-ad-creatives)to inspect and run it, or open the Actor's Input tab, switch to JSON, and paste the following input. It saves a baseline and delivers up to 20 initial observations. Keep the monitor name so later runs can compare against the same history.\n\nA bounded first run — JSON input\n\n```\n{\n  \"advertiserIds\": [\n    \"AR10888897372843147265\"\n  ],\n  \"region\": \"JP\",\n  \"format\": \"ALL\",\n  \"mode\": \"changes\",\n  \"monitorName\": \"mako-notion-japan-example-20261002\",\n  \"emitInitialSnapshot\": true,\n  \"maxResults\": 20,\n  \"maxAdsPerDomain\": 20,\n  \"includeCreativeDetails\": true,\n  \"maxCreativeDetails\": 20\n}\n```\n\nSet the maximum Actor charge to **$0.05** in the run options, then start. That is a ceiling, not a prepaid fee. Wait for the run to finish, then open both its dataset and the `SUMMARY` record in its key-value store.\n\nTo research a domain instead, replace `advertiserIds` with` \"domains\": [\"your-competitor.com\"]`. Domain results can include agencies or other advertisers associated with that site; check the advertiser identity before attributing an ad to a brand. You can supply up to ten domains and advertiser IDs combined. Set country and format explicitly: filters in a pasted Google URL are not imported.",
+        "contentHash": "875d733d8186d2535f4bcc3539a2f541c0f7c18d4f22462358eeab7830b920d0",
+        "characterCount": 1752,
+        "oversized": false
+      },
+      {
+        "id": "f7929b89b6ec0dd1ea5ead654b7d273165a97d8e734251c218c3bc69ebda1d0c",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#read-results",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "2. Turn the dataset into a reviewable ad log"
+        ],
+        "content": "## 2\\. Turn the dataset into a reviewable ad log\n\nKeep a compact table for the people doing the review. Export JSON for complete nested data, or CSV/Excel for a spreadsheet. Preserve the original creative link alongside every observation so someone can check the source.\n\nRecommended fields and their meaning\n| Field | What to use it for |\n| --- | --- |\n| advertiserName + advertiserId | Identify the public advertiser account. |\n| creativeId + creativeUrl | Identify the creative and open its source page. |\n| searchRegion + format | Keep the country scope and creative format visible. |\n| observedAt | Record when this monitor collected the observation. |\n| firstShown + lastShown | Retain Google's dates when supplied; these are not performance data. |\n| eventType + changedFields | Separate the baseline, newly observed ads and changes. |\n| before + after + eventId | Inspect changed values and deduplicate repeated deliveries. |\n\nSome rows have no readable ad copy. Missing text or images stay `null`. The example enables `includeCreativeDetails`, with a ceiling of 20 preview requests across the run. Set it to `false` for listing data alone. Optional extraction visits supported public previews; it does not run OCR, transcribe videos or guarantee complete copy.",
+        "contentHash": "d0126a5a3055a9cc305064852cf3426c1bd71f17390d835c197c020298515d6d",
+        "characterCount": 1269,
+        "oversized": false
+      },
+      {
+        "id": "1d62b919fb517633a397b0610bd27696a86a62d3560c394b9de752884d56b501",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#article",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "2. Turn the dataset into a reviewable ad log",
+          "What the example actually returned"
+        ],
+        "content": "### What the example actually returned\n\nOn 2 October 2026, the first test delivered 13 initial observations. All 13 had creative links, 12 had image URLs, and none had readable ad copy. One optional preview request failed. The listing scan succeeded; the missing copy remained explicit. Here is a selected set of fields from one real record:\n\nObserved output — real record, selected fields\n\n```\n{\n  \"advertiserName\": \"Notion Labs Japan合同会社\",\n  \"advertiserId\": \"AR10888897372843147265\",\n  \"creativeId\": \"CR15371418889862774785\",\n  \"searchRegion\": \"JP\",\n  \"format\": \"TEXT\",\n  \"adText\": null,\n  \"observedAt\": \"2026-10-02T12:44:11.043Z\",\n  \"eventType\": \"initial\",\n  \"creativeUrl\": \"https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP\"\n}\n```\n\n[Open this creative's Google source page](https://adstransparency.google.com/advertiser/AR10888897372843147265/creative/CR15371418889862774785?region=JP). A repeat test observed the same 13 creatives and delivered zero new or changed records. That demonstrates deduplication for these two runs, not a promise that future scans will return the same data or that every ad was captured.\n\nCheck `SUMMARY` for successful scans, errors, capped coverage and preview availability. A successful run with zero changes can be legitimate. A failed source request, an unvisited target and a genuinely empty response should lead to different decisions.\n\nUse the [public input files, sample output and monitoring examples on GitHub](https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring) to reproduce the workflow.",
+        "contentHash": "6a39f19cf0a8e44a5bad318ac44fac1b0b595465ad2a41724ac97fee2562065e",
+        "characterCount": 1626,
+        "oversized": false
+      },
+      {
+        "id": "46bf1c12e1356b7e0f5663254bb71aa78a6b2a10ef6fdfdb2f582d2d4f3bbf7d",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#repeat",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "3. Repeat the same watch and review the differences"
+        ],
+        "content": "## 3\\. Repeat the same watch and review the differences\n\nSave the input as an Apify task. Add an Apify Schedule at a cadence you actually review, such as once a week. The Actor itself does not create the schedule or send notifications; connect Apify webhooks or your own workflow for delivery.\n\n1.  Keep `mode: \"changes\"`, the monitor name, target, country and format consistent. Country and format changes have separate baselines.\n2.  On the first run, `emitInitialSnapshot: true` delivers the starting observations. Set it to `false` if you only want to seed history.\n3.  On later runs, review `new` and `changed` events. New means first observed by this monitor; a changed event includes previous and current values.\n4.  Deduplicate exports or webhook deliveries by `eventId`. Delivery is at least once, so an interrupted run can repeat an event.\n\nFor an agency review, group observations by advertiser and format, open the source links, and annotate the message or visual you can actually inspect. Let an assistant summarize that evidence, then review its interpretation before using it in a client report.\n\n`maxResults` caps delivered records across the run.` maxAdsPerDomain` caps observations per target, including advertiser IDs and unchanged ads. Keep both small while testing. Increasing only the output cap does not make a source scan complete.",
+        "contentHash": "ac98b2246f71b729ccd5d89f1b765d9554a7f94bbefd2eb5ee14e137b2d1a38f",
+        "characterCount": 1355,
+        "oversized": false
+      },
+      {
+        "id": "456cab11600ad17d58eba2c6f31ec62001933a453b86dcd853e855ab7c5057b7",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#cost",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "4. Budget for records, including the first baseline"
+        ],
+        "content": "## 4\\. Budget for records, including the first baseline\n\nThe base price is **$0.78 per 1,000 delivered records**, before plan discounts, plus a **$0.00005 startup event**. Startup is charged per allocated GB with a minimum of one event. Platform compute is included. Check the [current Actor pricing](https://apify.com/agency-shift/google-ads-competitor-tracker/pricing) before running.\n\nAt those base rates and one startup event, 20 delivered records cost about **$0.01565**. The $0.05 ceiling above leaves room for this example; the minimum permitted maximum-charge budget is $0.01. Actual charges depend on delivered records, memory, applicable discounts and the current published price.\n\nFor the 13 records in our test, the base-rate illustration is` 13 × $0.00078 + $0.00005 = $0.01019`. A repeat with no delivered records still has the startup fee. These are customer pricing examples, not a claim about an individual account's invoice.\n\nSnapshot mode charges for every delivered snapshot. Changes mode charges for delivered initial, new and changed records. Unchanged observations and the summary do not add record fees, but startup still applies to an empty run. Optional preview extraction has no separate event fee; it can increase runtime.",
+        "contentHash": "1ae7de5127da7e9cd2e649f60851c5baada558d4672388f2bd084ec9f51ff3e9",
+        "characterCount": 1250,
+        "oversized": false
+      },
+      {
+        "id": "f28f4d3c8ad92e9bf4f399f4cba015d988f81b6af05353e1f5af8d7d7a9f8707",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#claude",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "5. Give Claude access through Apify's MCP server"
+        ],
+        "content": "## 5\\. Give Claude access through Apify's MCP server\n\nApify hosts the connection; you do not need to build a server. In an installed Claude Code CLI, add this Actor, sign in to your own Apify account through the browser, and check the connection:\n\nClaude Code — run these commands in your terminal\n\n```\nclaude mcp add --transport http --scope user mako-google-ads 'https://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actor'\nclaude mcp login mako-google-ads\nclaude mcp get mako-google-ads\n```\n\nLook for a connected status. If authentication is still needed, open` /mcp` inside Claude Code and follow the sign-in flow. OAuth connects your own Apify account; do not paste an API token into a shared prompt or public configuration. Runs use your account and normal Actor pricing.\n\nPrompt after connecting — paste the JSON from step 1 with it\n\n```\nUse the Apify call-actor tool with:\nactor: \"agency-shift/google-ads-competitor-tracker\"\ninput: the JSON below\ncallOptions: {\"maxTotalChargeUsd\": 0.05, \"timeout\": 180}\n\nUse call-actor so the spending cap is applied.\nWait for completion, then retrieve the dataset and SUMMARY.\nReturn advertiser name, format, event type and creative URL.\nExplain coverage errors and keep missing values as null.\nDo not infer spend, profitability, launches or stopped campaigns.\n```\n\nThis connection includes the Actor and Apify's generic `call-actor`tool. Use `call-actor` for this example because its` callOptions.maxTotalChargeUsd` field supports the spending cap; the dedicated Actor tool does not expose that option.\n\nA successful connection should let you see the exact Actor run in Apify, retrieve its final status and read its dataset and summary. Seeing a saved connector alone does not prove a run worked. See the [Claude Code MCP reference](https://code.claude.com/docs/en/mcp) and the [Apify MCP guide](https://docs.apify.com/integrations/mcp) for connection details.",
+        "contentHash": "5f0c6950b00d28ff5deda42ff5e78d85cdab0652dc6cbe47c2d26478e155cd03",
+        "characterCount": 1926,
+        "oversized": false
+      },
+      {
+        "id": "f174b26e2c4160c8e50d63bd37e0fef4961912fdf112a3254146a2d646cb55ad",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#claude",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "5. Give Claude access through Apify's MCP server"
+        ],
+        "content": "We verified an actual capped run and result retrieval through Apify's MCP protocol. The desktop and chat-client sign-in flows below are setup instructions; they were not tested end to end in each client for this guide.",
+        "contentHash": "def22752e92b4bae356b9764be33e0fd0484d84c4914f2b5d7a0c620b508ed53",
+        "characterCount": 218,
+        "oversized": false
+      },
+      {
+        "id": "a87e7326e950bfa7d986a32bdcefac8ab946e176366b348af4d1dd1bff9a5d06",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#article",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "5. Give Claude access through Apify's MCP server",
+          "Claude Desktop and ChatGPT"
+        ],
+        "content": "### Claude Desktop and ChatGPT\n\nIn Claude Desktop, add a custom remote connector using the URL below and authorize Apify through OAuth. In ChatGPT on the web, use Developer mode and create a custom app with this URL if your account and workspace permit it. Select the app for the request and use the same bounded prompt.\n\nActor-specific remote MCP URL\n\n```\nhttps://mcp.apify.com?tools=agency-shift/google-ads-competitor-tracker,call-actor\n```\n\nClient availability and settings vary. Follow the current [Claude Desktop setup](https://docs.apify.com/integrations/claude-desktop) or [ChatGPT setup](https://docs.apify.com/integrations/chatgpt), and check your workspace's tool permissions. Connecting makes the Actor available to your assistant; it does not guarantee that every AI conversation will discover or recommend it.",
+        "contentHash": "ceb6aeac074fe14c9300bafb88641a29237d0d4310a2029974044f35d0beae2d",
+        "characterCount": 822,
+        "oversized": false
+      },
+      {
+        "id": "56505c861909613f773d28a302f04af4482f3f5b2b01f0e2e8b1225a47885ba3",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#limits",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "6. Keep the conclusions within the evidence"
+        ],
+        "content": "## 6\\. Keep the conclusions within the evidence\n\n-   Source limits, ordering, blocks and partial responses can affect coverage. This is a bounded observation workflow, not an exhaustive inventory.\n-   An absent ad does not establish that a campaign stopped. The Actor does not emit disappearance or retirement events.\n-   First observed is different from first launched. Google's first/last-shown dates and the monitor's observation time describe different things.\n-   Creative format is not a platform filter. The Actor searches across Google platforms and does not offer date-range filtering.\n-   No spend, impressions, conversions, ROI or private Google Ads account data are supplied. Inspect original links before making marketing decisions.\n\nStart with one useful question: what publicly visible creative changed for this advertiser in this market? Keep the source, the observation time and the coverage alongside your answer. That gives the next review a concrete starting point.",
+        "contentHash": "f5ba1532e00fbacfb9fe97327b7cfc70821b49e8ce20eb0d4053d3572a799278",
+        "characterCount": 985,
+        "oversized": false
+      },
+      {
+        "id": "b01cc87ea8baa9f9c0bc78e88e034fee151e17bd654484936c7bb6186fa44e78",
+        "sourceUrl": "https://makorev.com/blog/google-ads-competitor-tracking",
+        "sectionUrl": "https://makorev.com/blog/google-ads-competitor-tracking#article",
+        "title": "How to track competitor Google ads with Apify and Claude | Mako",
+        "headingPath": [
+          "How to track competitor Google ads with Apify and Claude",
+          "Keep the workflow reproducible"
+        ],
+        "content": "## Keep the workflow reproducible\n\nThe [GitHub examples](https://github.com/valdeircs/scraper-fleet/tree/main/examples/google-ads-monitoring) contain the input and output files. The [Actor's Issues tab](https://apify.com/agency-shift/google-ads-competitor-tracker/issues) is the place to report a reproducible source or output problem.\n\nBuilt by Mako. Independent of Google, Notion and the advertisers returned. Examples are research observations, not endorsements or customer results.",
+        "contentHash": "ce26f300920a64446ffc36043d49c01740718ae632d0ef33b1e8667299685f9e",
+        "characterCount": 485,
+        "oversized": false
+      }
+    ],
+    "chunkCount": 12,
+    "oversizedChunkCount": 0
+  }
+]

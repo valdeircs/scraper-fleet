@@ -1,0 +1,564 @@
+{
+  "name": "Mako | Website pages to source packets (manual)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Website pages → source packets\nManual starter. Uses only built-in n8n nodes.\n1. Add an Apify Header Auth credential (Authorization: Bearer YOUR_APIFY_TOKEN).\n2. Select it in all 5 HTTP Request nodes.\n3. Review Configure crawl, then execute manually.\nDefault: 2 public Mako pages; no link following, no LLM or CRM calls.\n$0.10 Actor maximum charge; 180s Actor timeout. n8n costs are separate.\nRead docs/n8n-setup.md for pricing, limits and failure handling.",
+        "height": 260,
+        "width": 510
+      },
+      "id": "fc75f1bc-442e-52ad-8cef-4cd5d227865d",
+      "name": "Read me first",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -260
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "665accc9-dcb7-5de3-8a47-ac4e1bbac1ff",
+      "name": "Manual start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Edit only the two startUrls to try your own public, server-rendered pages.\n// No API token belongs in this node. Select Header Auth in the HTTP nodes.\nconst input = {\n  startUrls: ['https://makorev.com/', 'https://makorev.com/blog/google-ads-competitor-tracking'],\n  maxPages: 2,\n  followLinks: false,\n  useProxy: false,\n  exportFormat: 'markdown-and-chunks',\n  maxTextLength: 30000,\n  maxMarkdownLength: 50000,\n  chunkMaxCharacters: 2000,\n};\nif (!Array.isArray(input.startUrls) || input.startUrls.length < 1 || input.startUrls.length > 10) {\n  throw new Error('Provide 1–10 explicit public page URLs. This starter does not follow links.');\n}\nconst urls = input.startUrls.map(value => {\n  // n8n's Code sandbox does not expose the URL constructor. Check a conservative\n  // HTTP(S) shape here; the Actor performs full URL validation before crawling.\n  const match = typeof value === 'string' && value.match(/^https?:\\/\\/([^/?#\\s]+)([^\\s]*)$/i);\n  if (!match || match[1].includes('@') || value.includes('\\\\')) {\n    throw new Error('Use public HTTP(S) page URLs without credentials.');\n  }\n  return value.split('#')[0];\n});\nif (new Set(urls).size !== urls.length) throw new Error('Remove duplicate input URLs.');\ninput.startUrls = urls;\ninput.maxPages = urls.length;\nreturn [{ json: {\n  input,\n  runOptions: { build: '0.2.2', memory: 512, timeout: 180, maxTotalChargeUsd: 0.10 },\n  pollingDeadline: Date.now() + 240000,\n} }];"
+      },
+      "id": "15e0c1a0-bc27-5c00-96df-7ac84ffe27a9",
+      "name": "Configure crawl",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/actors/agency-shift~web-content-crawler/runs",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "build",
+              "value": "={{ $json.runOptions.build }}"
+            },
+            {
+              "name": "memory",
+              "value": "={{ $json.runOptions.memory }}"
+            },
+            {
+              "name": "timeout",
+              "value": "={{ $json.runOptions.timeout }}"
+            },
+            {
+              "name": "maxTotalChargeUsd",
+              "value": "={{ $json.runOptions.maxTotalChargeUsd }}"
+            },
+            {
+              "name": "waitForFinish",
+              "value": "0"
+            },
+            {
+              "name": "restartOnError",
+              "value": "false"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.input }}",
+        "options": {
+          "timeout": 45000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "de0b1874-799a-5ed8-85a5-0e290ba0eb22",
+      "name": "Start bounded crawl",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        100
+      ],
+      "retryOnFail": false,
+      "notes": "Select your Apify Header Auth credential: Authorization = Bearer YOUR_APIFY_TOKEN. Keep the token in credentials, never in the workflow JSON."
+    },
+    {
+      "parameters": {
+        "jsCode": "const config = $('Configure crawl').first().json;\nconst start = $('Start bounded crawl').first().json.data;\nconst candidate = $input.first().json.data;\nconst valid = candidate && typeof candidate.id === 'string' && candidate.id === start?.id;\nif (!valid) return [{ json: { finished: false, stopPolling: true, reason: 'The run-status response was missing or invalid. An abort is attempted; inspect the run in Apify Console before retrying.' } }];\nconst statuses = ['READY', 'RUNNING', 'SUCCEEDED', 'FAILED', 'TIMING-OUT', 'TIMED-OUT', 'ABORTING', 'ABORTED'];\nif (!statuses.includes(candidate.status)) return [{ json: { finished: false, stopPolling: true, reason: 'Unknown run status. An abort is attempted; inspect Apify Console before retrying.' } }];\nconst finished = ['SUCCEEDED', 'FAILED', 'TIMED-OUT', 'ABORTED'].includes(candidate.status);\nconst stopPolling = !finished && (Date.now() >= config.pollingDeadline || $runIndex >= 80);\nreturn [{ json: { run: candidate, finished, stopPolling, reason: stopPolling ? 'Polling deadline exceeded. An abort is attempted; inspect Apify Console before retrying.' : '' } }];"
+      },
+      "id": "91b64c0c-4424-5256-b8b5-2c6047a14ae8",
+      "name": "Inspect run",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "36e1ac8a-910f-58b0-8cd3-d54f9b635c0c",
+              "leftValue": "={{ $json.finished }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "aa79c86f-af33-56c7-8e41-3d3ab6c45c4c",
+      "name": "Run finished?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        960,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c40fc370-2a13-5d38-86dd-b7b4ea8c0bce",
+              "leftValue": "={{ $json.stopPolling }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "0285371b-3cb0-5cff-b28e-ef3f91fe1e8f",
+      "name": "Stop polling?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        960,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "resume": "timeInterval",
+        "amount": 3,
+        "unit": "seconds"
+      },
+      "id": "426c54ac-16b6-56e9-b4e0-87a2a73812d7",
+      "name": "Wait three seconds",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1200,
+        520
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'https://api.apify.com/v2/actor-runs/' + encodeURIComponent($('Start bounded crawl').first().json.data.id) }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 45000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "ec485aa0-f7df-5a52-bf6e-a3fc0181452f",
+      "name": "Get run status",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1440,
+        520
+      ],
+      "retryOnFail": false,
+      "notes": "Select your Apify Header Auth credential: Authorization = Bearer YOUR_APIFY_TOKEN. Keep the token in credentials, never in the workflow JSON.",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://api.apify.com/v2/actor-runs/' + encodeURIComponent($('Start bounded crawl').first().json.data.id) + '/abort' }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 45000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "b3f73dd8-51dd-59f9-8fbf-3d205a5a1279",
+      "name": "Abort overdue crawl",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1200,
+        320
+      ],
+      "retryOnFail": false,
+      "notes": "Select your Apify Header Auth credential: Authorization = Bearer YOUR_APIFY_TOKEN. Keep the token in credentials, never in the workflow JSON.",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "throw new Error('Polling stopped and an abort was attempted. Check the run in Apify Console before retrying; the 180-second Actor timeout remains the fallback.');"
+      },
+      "id": "40f50ff0-e802-5369-9d30-077cc671e357",
+      "name": "Stop with polling error",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1440,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const result = $input.first().json;\nif (result.run?.status !== 'SUCCEEDED') throw new Error('The crawl did not succeed. Check the run in Apify Console; this starter will not send partial output downstream.');\nif (!/^[A-Za-z0-9]+$/.test(result.run.defaultDatasetId || '') || !/^[A-Za-z0-9]+$/.test(result.run.defaultKeyValueStoreId || '')) {\n  throw new Error('The successful run did not return valid output storage IDs.');\n}\nreturn [{ json: result }];"
+      },
+      "id": "6003afbb-9849-5183-aa48-9d3b7192fe84",
+      "name": "Require successful run",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'https://api.apify.com/v2/key-value-stores/' + encodeURIComponent($('Require successful run').first().json.run.defaultKeyValueStoreId) + '/records/RUN_SUMMARY' }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 45000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "aae1c623-7411-557b-8b4e-e1feafee97e9",
+      "name": "Get crawl report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1440,
+        0
+      ],
+      "retryOnFail": false,
+      "notes": "Select your Apify Header Auth credential: Authorization = Bearer YOUR_APIFY_TOKEN. Keep the token in credentials, never in the workflow JSON."
+    },
+    {
+      "parameters": {
+        "jsCode": "const report = $input.first().json;\nconst expected = $('Configure crawl').first().json.input.startUrls.length;\nconst reasons = [];\nif (report.outcome !== 'succeeded') reasons.push('report outcome is not succeeded');\nif (report.fatalError !== null) reasons.push('fatal error or missing fatal-error field');\nfor (const key of ['failedRequestCount', 'unprocessedInputCount', 'skippedDueToLimitCount', 'pendingRequestCount', 'truncatedPageCount']) {\n  if (report[key] !== 0) reasons.push(key + ' is not zero');\n}\nfor (const key of ['markdownTruncatedPageCount', 'emptyMarkdownPageCount']) {\n  if (report.aiExport?.[key] !== 0) reasons.push(key + ' is not zero');\n}\nif (report.requestedUniqueUrlCount !== expected || report.returnedPageCount !== expected) reasons.push('supplied URL count does not match returned page count');\nif (report.followLinks !== false) reasons.push('unexpected link-following setting');\nif (report.aiExport?.format !== 'markdown-and-chunks') reasons.push('unexpected export format');\nif (reasons.length) throw new Error('Coverage check failed: ' + reasons.join('; ') + '. Review RUN_SUMMARY in Apify Console.');\n// pageLimitReached alone does not indicate missing pages when all supplied URLs returned.\n// Oversized code/table chunks are retained and flagged, not silently split or discarded.\nreturn [{ json: { report } }];"
+      },
+      "id": "3820e946-3e36-5493-8087-f3753c1b4c33",
+      "name": "Check crawl coverage",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1680,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'https://api.apify.com/v2/datasets/' + encodeURIComponent($('Require successful run').first().json.run.defaultDatasetId) + '/items' }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "format",
+              "value": "json"
+            },
+            {
+              "name": "limit",
+              "value": "1000"
+            },
+            {
+              "name": "clean",
+              "value": "true"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 45000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "39f48151-1306-5b93-acc0-827abb9254f4",
+      "name": "Get page dataset",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        0
+      ],
+      "retryOnFail": false,
+      "notes": "Select your Apify Header Auth credential: Authorization = Bearer YOUR_APIFY_TOKEN. Keep the token in credentials, never in the workflow JSON."
+    },
+    {
+      "parameters": {
+        "jsCode": "const report = $('Check crawl coverage').first().json.report;\nconst pages = $input.all().flatMap(item => Array.isArray(item.json) ? item.json : [item.json]);\nif (pages.length !== report.returnedPageCount) throw new Error('Dataset page count differs from RUN_SUMMARY. No source packets emitted.');\nconst packets = [];\nconst seen = new Set();\nlet oversizedCount = 0;\nfor (const page of pages) {\n  if (!Number.isInteger(page.httpStatusCode) || page.httpStatusCode < 200 || page.httpStatusCode >= 300 || !page.markdown?.trim() || page.markdownTruncated !== false || page.textTruncated !== false) {\n    throw new Error('A page is unsuccessful, empty, or truncated. Inspect the dataset before ingestion.');\n  }\n  if (!Array.isArray(page.chunks) || page.chunks.length < 1 || page.chunkCount !== page.chunks.length) throw new Error('Missing or inconsistent page chunks.');\n  for (const chunk of page.chunks) {\n    if (!/^[a-f0-9]{64}$/.test(chunk.id || '') || !/^[a-f0-9]{64}$/.test(chunk.contentHash || '') || typeof chunk.content !== 'string' || !chunk.content.trim() || !Array.isArray(chunk.headingPath) || !chunk.headingPath.every(h => typeof h === 'string') || typeof chunk.oversized !== 'boolean') {\n      throw new Error('A source chunk does not match the expected schema.');\n    }\n    if (seen.has(chunk.id)) throw new Error('Duplicate chunk ID. Review input and redirects before ingestion.');\n    seen.add(chunk.id);\n    if (chunk.sourceUrl !== page.url && chunk.sourceUrl !== page.loadedUrl) throw new Error('Chunk source does not match its page.');\n    if (typeof chunk.sectionUrl !== 'string' || chunk.sectionUrl.split('#')[0] !== chunk.sourceUrl.split('#')[0]) throw new Error('Chunk section URL does not match its source.');\n    if (chunk.characterCount !== chunk.content.length) throw new Error('Chunk character count is inconsistent.');\n    if (typeof page.crawledAt !== 'string' || Number.isNaN(Date.parse(page.crawledAt))) throw new Error('Missing crawl timestamp.');\n    if (chunk.oversized) oversizedCount += 1;\n    packets.push({\n      id: chunk.id,\n      content: chunk.content,\n      sourceUrl: chunk.sourceUrl,\n      sectionUrl: chunk.sectionUrl,\n      title: chunk.title,\n      headingPath: chunk.headingPath,\n      contentHash: chunk.contentHash,\n      crawledAt: page.crawledAt,\n      characterCount: chunk.characterCount,\n      oversized: chunk.oversized,\n    });\n  }\n}\nif (packets.length !== report.aiExport.returnedChunkCount || oversizedCount !== report.aiExport.oversizedChunkCount) throw new Error('Dataset chunk counts differ from RUN_SUMMARY.');\nreturn [{ json: {\n  coverage: {\n    outcome: report.outcome,\n    pageCount: pages.length,\n    sourcePacketCount: packets.length,\n    oversizedChunkCount: oversizedCount,\n    followLinks: false,\n    wholeSiteCompleteness: report.wholeSiteCompleteness,\n    coverageNote: report.coverageNote,\n    finishedAt: report.finishedAt,\n  },\n  sourcePackets: packets,\n} }];"
+      },
+      "id": "ffc4949e-dfca-5249-afaf-82f7d061e950",
+      "name": "Validate pages and build packets",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2160,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.first().json.sourcePackets.map(packet => ({ json: packet }));"
+      },
+      "id": "a8512ed1-2142-5f58-921c-4e911cc5de2f",
+      "name": "Source packets",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2400,
+        0
+      ],
+      "notes": "One item per source chunk, ready for your own review, retrieval index or later AI step. Connect a downstream system only after reviewing coverage. These are source passages, not model-generated answers."
+    }
+  ],
+  "connections": {
+    "Manual start": {
+      "main": [
+        [
+          {
+            "node": "Configure crawl",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Configure crawl": {
+      "main": [
+        [
+          {
+            "node": "Start bounded crawl",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start bounded crawl": {
+      "main": [
+        [
+          {
+            "node": "Inspect run",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Inspect run": {
+      "main": [
+        [
+          {
+            "node": "Run finished?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run finished?": {
+      "main": [
+        [
+          {
+            "node": "Require successful run",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Stop polling?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Stop polling?": {
+      "main": [
+        [
+          {
+            "node": "Abort overdue crawl",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait three seconds",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait three seconds": {
+      "main": [
+        [
+          {
+            "node": "Get run status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get run status": {
+      "main": [
+        [
+          {
+            "node": "Inspect run",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Abort overdue crawl": {
+      "main": [
+        [
+          {
+            "node": "Stop with polling error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Require successful run": {
+      "main": [
+        [
+          {
+            "node": "Get crawl report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get crawl report": {
+      "main": [
+        [
+          {
+            "node": "Check crawl coverage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check crawl coverage": {
+      "main": [
+        [
+          {
+            "node": "Get page dataset",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get page dataset": {
+      "main": [
+        [
+          {
+            "node": "Validate pages and build packets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate pages and build packets": {
+      "main": [
+        [
+          {
+            "node": "Source packets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "executionTimeout": 360
+  },
+  "pinData": {},
+  "tags": []
+}

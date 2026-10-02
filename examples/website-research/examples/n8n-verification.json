@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-02T13:48:56.273Z",
+  "n8nVersion": "2.41.6",
+  "runtime": "Official Docker image, isolated local CLI execution",
+  "workflowSha256": "94545cd02e02f2b10e83efc8053840f8470c7bfde3b2e667e17681feb888bbb6",
+  "actor": "agency-shift/web-content-crawler",
+  "actorBuild": "0.2.2",
+  "status": "passed",
+  "engineExitCode": 0,
+  "lastNodeExecuted": "Source packets",
+  "pages": 2,
+  "sourcePackets": 33,
+  "oversizedChunks": 0,
+  "coverageOutcome": "succeeded",
+  "maxTotalChargeUsd": 0.1,
+  "timeoutSecs": 180,
+  "memoryMbytes": 512,
+  "scope": "Two explicit Mako-owned URLs; no link following, no AI model or CRM. Owner account; customer billing and n8n Cloud UI not tested."
+}
